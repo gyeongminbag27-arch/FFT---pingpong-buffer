@@ -1,0 +1,112 @@
+Tests
+
+Total Coverage Summary 
+SCORE   GROUP          
+100.00  100.00 298/298 
+
+
+Total tests in report: 5
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+TEST LOCATION                 
+stimulus_seed1/stimulus_seed1 
+stimulus_seed2/stimulus_seed2 
+stimulus_seed3/stimulus_seed3 
+stimulus_seed4/stimulus_seed4 
+stimulus_seed5/stimulus_seed5 
+
+
+Total test records in report: 5
+-------------------------------------------------------------------------------
+TEST NO TEST LOCATION                 TEST NAME STATUS STARTED                   FINISHED                  SIMULATION TIME 
+T1      stimulus_seed1/stimulus_seed1                  Oct 06 04:28:31 PM KST 26 Oct 06 04:28:31 PM KST 26 22995000 ps     
+T2      stimulus_seed2/stimulus_seed2                  Oct 06 04:30:59 PM KST 26 Oct 06 04:30:59 PM KST 26 24675000 ps     
+T5      stimulus_seed3/stimulus_seed3                  Oct 06 04:30:59 PM KST 26 Oct 06 04:31:00 PM KST 26 23415000 ps     
+T3      stimulus_seed4/stimulus_seed4                  Oct 06 04:31:00 PM KST 26 Oct 06 04:31:00 PM KST 26 23805000 ps     
+T4      stimulus_seed5/stimulus_seed5                  Oct 06 04:31:00 PM KST 26 Oct 06 04:31:00 PM KST 26 23925000 ps     
+
+
+-------------------------------------------------------------------------------
+Test location   stimulus_seed1/stimulus_seed1                                                                                                                          
+Short name      T1                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 22995000 ps                                                                                                                                            
+CPU time        0.27 seconds                                                                                                                                           
+Started         Oct 06 04:28:31 PM KST 26                                                                                                                              
+Finished        Oct 06 04:28:31 PM KST 26                                                                                                                              
+Peak memory     340012 kb                                                                                                                                              
+Host            kccipangyo1                                                                                                                                            
+User            pedu12                                                                                                                                                 
+Command         ./simv_stimulus +UVM_TESTNAME=fft_buffer_random_overflow_test +ntb_random_seed=1 +UVM_VERBOSITY=UVM_MEDIUM -cm_dir stimulus_seed1.vdb -cm_name stimulu 
+                s_seed1 -l run_stimulus_seed1.log                                                                                                                      
+Directory       /home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw                                                                                              
+
+
+-------------------------------------------------------------------------------
+Test location   stimulus_seed2/stimulus_seed2                                                                                                                          
+Short name      T2                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 24675000 ps                                                                                                                                            
+CPU time        0.28 seconds                                                                                                                                           
+Started         Oct 06 04:30:59 PM KST 26                                                                                                                              
+Finished        Oct 06 04:30:59 PM KST 26                                                                                                                              
+Peak memory     340012 kb                                                                                                                                              
+Host            kccipangyo1                                                                                                                                            
+User            pedu12                                                                                                                                                 
+Command         ./simv_stimulus +UVM_TESTNAME=fft_buffer_random_overflow_test +ntb_random_seed=2 +UVM_VERBOSITY=UVM_MEDIUM -cm_dir stimulus_seed2.vdb -cm_name stimulu 
+                s_seed2 -l run_stimulus_seed2.log                                                                                                                      
+Directory       /home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw                                                                                              
+
+
+-------------------------------------------------------------------------------
+Test location   stimulus_seed3/stimulus_seed3                                                                                                                          
+Short name      T5                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 23415000 ps                                                                                                                                            
+CPU time        0.27 seconds                                                                                                                                           
+Started         Oct 06 04:30:59 PM KST 26                                                                                                                              
+Finished        Oct 06 04:31:00 PM KST 26                                                                                                                              
+Peak memory     340012 kb                                                                                                                                              
+Host            kccipangyo1                                                                                                                                            
+User            pedu12                                                                                                                                                 
+Command         ./simv_stimulus +UVM_TESTNAME=fft_buffer_random_overflow_test +ntb_random_seed=3 +UVM_VERBOSITY=UVM_MEDIUM -cm_dir stimulus_seed3.vdb -cm_name stimulu 
+                s_seed3 -l run_stimulus_seed3.log                                                                                                                      
+Directory       /home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw                                                                                              
+
+
+-------------------------------------------------------------------------------
+Test location   stimulus_seed4/stimulus_seed4                                                                                                                          
+Short name      T3                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 23805000 ps                                                                                                                                            
+CPU time        0.27 seconds                                                                                                                                           
+Started         Oct 06 04:31:00 PM KST 26                                                                                                                              
+Finished        Oct 06 04:31:00 PM KST 26                                                                                                                              
+Peak memory     340012 kb                                                                                                                                              
+Host            kccipangyo1                                                                                                                                            
+User            pedu12                                                                                                                                                 
+Command         ./simv_stimulus +UVM_TESTNAME=fft_buffer_random_overflow_test +ntb_random_seed=4 +UVM_VERBOSITY=UVM_MEDIUM -cm_dir stimulus_seed4.vdb -cm_name stimulu 
+                s_seed4 -l run_stimulus_seed4.log                                                                                                                      
+Directory       /home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw                                                                                              
+
+
+-------------------------------------------------------------------------------
+Test location   stimulus_seed5/stimulus_seed5                                                                                                                          
+Short name      T4                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 23925000 ps                                                                                                                                            
+CPU time        0.28 seconds                                                                                                                                           
+Started         Oct 06 04:31:00 PM KST 26                                                                                                                              
+Finished        Oct 06 04:31:00 PM KST 26                                                                                                                              
+Peak memory     340012 kb                                                                                                                                              
+Host            kccipangyo1                                                                                                                                            
+User            pedu12                                                                                                                                                 
+Command         ./simv_stimulus +UVM_TESTNAME=fft_buffer_random_overflow_test +ntb_random_seed=5 +UVM_VERBOSITY=UVM_MEDIUM -cm_dir stimulus_seed5.vdb -cm_name stimulu 
+                s_seed5 -l run_stimulus_seed5.log                                                                                                                      
+Directory       /home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw                                                                                              
+

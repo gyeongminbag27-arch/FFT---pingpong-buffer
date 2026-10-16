@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Tue Oct  6 16:32:00 2026
+
+User: pedu12
+
+Version: W-2024.09-SP2
+Command line: urg -dir stimulus_seed1.vdb stimulus_seed2.vdb stimulus_seed3.vdb stimulus_seed4.vdb stimulus_seed5.vdb -dbname stimulus_merged_seed1_5.vdb -report urg_stimulus_seed1_5 -format both -show tests -show ratios
+Number of tests: 5
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE   GROUP          
+100.00  100.00 298/298 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+COVERED EXPECTED SCORE  COVERED EXPECTED INST SCORE WEIGHT 
+298     298      100.00 298     298      100.00     1      
+

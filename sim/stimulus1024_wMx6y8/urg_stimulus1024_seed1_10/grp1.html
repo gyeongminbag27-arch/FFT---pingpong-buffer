@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Group :: fft_buffer_pkg::fft_buffer_coverage::buffer_cg</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Group : fft_buffer_pkg::fft_buffer_coverage::buffer_cg</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | hierarchy | modlist | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group : <a href="#"  onclick="showContent('fft_buffer_pkg::fft_buffer_coverage::buffer_cg')">fft_buffer_pkg::fft_buffer_coverage::buffer_cg</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>INSTANCES</td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>PER INSTANCE</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/pedu12/workspace/fft_buffer/sim/stimulus1024_wMx6y8/tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh')">/home/pedu12/workspace/fft_buffer/sim/stimulus1024_wMx6y8/tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh</a><br clear=all>
+<br clear=all>
+<span class=repname>1 Instances:</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="wht cl wordwrap"><a href="grp1.html#inst_tag_tb_top.me.obj.buffer_cg"  onclick="showContent('tb_top.me.obj.buffer_cg')">tb_top.me.obj.buffer_cg</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group   fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td><a href="#var_tbl_fft_buffer_pkg::fft_buffer_coverage::buffer_cg" >Variables</a></td>
+<td class="rt">7</td>
+<td class="rt">0</td>
+<td class="rt">7</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_fft_buffer_pkg::fft_buffer_coverage::buffer_cg">Variables for Group  fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s10">
+<td><a href="#inst_tag_fft_buffer_pkg::fft_buffer_coverage::buffer_cg.cp_event"  onclick="checkLink(this)" target="detailFrame">cp_event</a></td>
+<td class="rt">7</td>
+<td class="rt">0</td>
+<td class="rt">7</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+<div name='tb_top.me.obj.buffer_cg'>
+<a name="inst_tag_tb_top.me.obj.buffer_cg"></a>
+<hr>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group Instance : <a href="groups.html#tag_tb_top.me.obj.buffer_cg" >tb_top.me.obj.buffer_cg</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group Instance   tb_top.me.obj.buffer_cg
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td><a href="#var_tbl_tb_top.me.obj.buffer_cg" >Variables</a></td>
+<td class="rt">7</td>
+<td class="rt">0</td>
+<td class="rt">7</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_tb_top.me.obj.buffer_cg">Variables for Group Instance  tb_top.me.obj.buffer_cg
+</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s10">
+<td><a href="#inst_tag_tb_top.me.obj.buffer_cg.cp_event"  onclick="checkLink(this)" target="detailFrame">cp_event</a></td>
+<td class="rt">7</td>
+<td class="rt">0</td>
+<td class="rt">7</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='fft_buffer_pkg::fft_buffer_coverage::buffer_cg'>
+<br clear=all>
+<a name="inst_tag_fft_buffer_pkg::fft_buffer_coverage::buffer_cg.cp_event"></a><span class="repname" id="inst_tag_fft_buffer_pkg::fft_buffer_coverage::buffer_cg.cp_event">Summary for Variable cp_event</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">7</td>
+<td class="rt">0</td>
+<td class="rt">7</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for cp_event</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>collection_resumed</td>
+<td class="rt">10</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>input_dropped_full</td>
+<td class="rt">40</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_1_reused</td>
+<td class="rt">10</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_0_reused</td>
+<td class="rt">10</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_1_filled</td>
+<td class="rt">20</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_0_filled</td>
+<td class="rt">20</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>accepted_and_output</td>
+<td class="rt">340</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+</div>
+<div name='tb_top.me.obj.buffer_cg'>
+<br clear=all>
+<a name="inst_tag_tb_top.me.obj.buffer_cg.cp_event"></a><span class="repname" id="inst_tag_tb_top.me.obj.buffer_cg.cp_event">Summary for Variable cp_event</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">7</td>
+<td class="rt">0</td>
+<td class="rt">7</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for cp_event</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>collection_resumed</td>
+<td class="rt">10</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>input_dropped_full</td>
+<td class="rt">40</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_1_reused</td>
+<td class="rt">10</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_0_reused</td>
+<td class="rt">10</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_1_filled</td>
+<td class="rt">20</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>buffer_0_filled</td>
+<td class="rt">20</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>accepted_and_output</td>
+<td class="rt">340</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="fft_buffer_pkg::fft_buffer_coverage::buffer_cg">
+    <li>
+      <a href="#inst_tag_fft_buffer_pkg::fft_buffer_coverage::buffer_cg.cp_event">Variable : cp_event</a>    </li>
+  </ul>
+  <ul name="tb_top.me.obj.buffer_cg">
+    <li>
+      <a href="#inst_tag_tb_top.me.obj.buffer_cg.cp_event">Variable : cp_event</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

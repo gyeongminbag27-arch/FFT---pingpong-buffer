@@ -1,0 +1,117 @@
+verdiWindowResize -win $_vdCoverage_1 "1470" "370" "1034" "710"
+gui_set_pref_value -category {coveragesetting} -key {geninfodumping} -value 1
+gui_exclusion -set_force true
+verdiSetFont  -font  {DejaVu Sans}  -size  12
+verdiSetFont -font "DejaVu Sans" -size "12"
+gui_assert_mode -mode flat
+gui_class_mode -mode hier
+gui_excl_mgr_flat_list -on  0
+gui_covdetail_select -id  CovDetail.1   -name   Line
+verdiWindowWorkMode -win $_vdCoverage_1 -coverageAnalysis
+gui_open_cov  -hier ./simv_buffer_reuse_fixed.vdb -testdir {} -test {./simv_buffer_reuse_fixed/test} -merge MergedTest -db_max_tests 10 -sdc_level 1 -fsm transition
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_Assert} -value {true}
+verdiSetActWin -dock widgetDock_<CovDetail>
+verdiWindowResize -win $_vdCoverage_1 "1470" "370" "1034" "710"
+gui_covtable_show -show  { Function Groups } -id  CoverageTable.1  -test  MergedTest
+verdiSetActWin -dock widgetDock_<Summary>
+gui_list_select -id CoverageTable.1 -list covtblFGroupsList { /fft_buffer_pkg::fft_buffer_coverage::buffer_cg   }
+gui_list_expand -id  CoverageTable.1   -list {covtblFGroupsList} /fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+gui_list_expand -id CoverageTable.1   /fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+gui_list_action -id  CoverageTable.1 -list {covtblFGroupsList} /fft_buffer_pkg::fft_buffer_coverage::buffer_cg  -column {Group} 
+verdiWindowResize -win $_vdCoverage_1 "617" "370" "1887" "710"
+gui_list_select -id CoverageTable.1 -list covtblFGroupsList { /fft_buffer_pkg::fft_buffer_coverage::buffer_cg   }
+gui_list_expand -id  CoverageTable.1   -list {covtblFGroupsList} /fft_buffer_pkg::fft_buffer_coverage::buffer_cg/fft_buffer_pkg::fft_buffer_coverage::buffer_cg.tb_top.me.obj.buffer_cg
+gui_list_select -id CoverageTable.1 -list covtblFGroupsList { fft_buffer_pkg::fft_buffer_coverage::buffer_cg.tb_top.me.obj.buffer_cg.cp_event   }
+gui_list_select -id CovDetail.1 -list covergroup { fft_buffer_pkg::fft_buffer_coverage::buffer_cg.cp_event   } -type { {Cover Group}  }
+verdiSetActWin -dock widgetDock_<CovDetail>
+gui_set_pref_value -category {ColumnCfg} -key {covergroup detail_V1.1_Bin_Name_width} -value {100}
+verdiSetActWin -dock widgetDock_Message
+verdiWindowResize -win $_vdCoverage_1 "617" "370" "1887" "975"
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Score_pos} -value {5}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Score_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Score} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Instances_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Instances_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Instances} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U+C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U+C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_X_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_X} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Goal_pos} -value {11}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Goal_width} -value {40}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Goal} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Weight_pos} -value {12}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Weight_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Weight} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AtLeast_pos} -value {13}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AtLeast_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AtLeast} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_PerInst_pos} -value {14}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_PerInst_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_PerInst} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Overlap_pos} -value {15}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Overlap_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Overlap} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AutoBinMax_pos} -value {16}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AutoBinMax_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AutoBinMax} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Missing_pos} -value {17}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Missing_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Missing} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Comment_pos} -value {18}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Comment_width} -value {200}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Comment} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Score_pos} -value {5}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Score_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Score} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Instances_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Instances_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Instances} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U+C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U+C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_X_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_X} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Goal_pos} -value {11}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Goal_width} -value {40}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Goal} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Weight_pos} -value {12}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Weight_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Weight} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AtLeast_pos} -value {13}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AtLeast_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AtLeast} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_PerInst_pos} -value {14}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_PerInst_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_PerInst} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Overlap_pos} -value {15}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Overlap_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Overlap} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AutoBinMax_pos} -value {16}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AutoBinMax_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AutoBinMax} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Missing_pos} -value {17}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Missing_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Missing} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Comment_pos} -value {18}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Comment_width} -value {200}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Comment} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_flat_V1.1_Gen_Info_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_hier_V1.1_Gen_Info_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_module_V1.1_Gen_Info_width} -value {100}
+vdCovExit -noprompt

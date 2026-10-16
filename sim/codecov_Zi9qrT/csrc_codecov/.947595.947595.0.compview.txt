@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1791295732.643277812, "rt":6.77, "ut":6.86, "st":0.26}}
+{"vcselab":{"timestamp_begin":1791295739.455133641, "rt":0.17, "ut":0.12, "st":0.04}}
+{"link":{"timestamp_begin":1791295739.663959190, "rt":0.50, "ut":0.40, "st":0.11}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1791295732.219645510}
+{"VCS_COMP_START_TIME": 1791295732.219645510}
+{"VCS_COMP_END_TIME": 1791295740.237399713}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm -timescale=1ns/1ps -debug_access+all -kdb +incdir+./tb +incdir+./tb/UVM_test +incdir+./tb/UVM_test/fft_buffer_env +incdir+./tb/UVM_test/fft_buffer_env/adc_agent +incdir+./tb/UVM_test/fft_buffer_env/core_agent ./rtl/fft_buffer.v ./tb/fft_buffer_if.sv ./tb/fft_buffer_pkg.sv ./tb/tb_top.sv -top tb_top -cm line+tgl+cond+branch+fsm -cm_hier coverage_hier.cfg -cm_dir codecov_build.vdb -Mdir=csrc_codecov -o simv_codecov -l compile_codecov.log"}
+{"vcs1": {"peak_mem": 479480}}
+{"vcselab": {"peak_mem": 174712}}

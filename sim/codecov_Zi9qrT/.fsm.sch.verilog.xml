@@ -1,0 +1,8 @@
+<Command name="schRTLInfo"  delimiter="."  >
+<RTLBlock >
+<RTLInfo   name="c_state_0"  type="2"  fileName="./rtl/fft_buffer.v"  >
+    <Seg beginLine="82"  endLine="196"  />
+  </RTLInfo>
+ <Instance name="tb_top.dut"  />
+</RTLBlock>
+ </Command>

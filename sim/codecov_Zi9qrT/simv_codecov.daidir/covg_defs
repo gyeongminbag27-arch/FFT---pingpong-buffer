@@ -1,0 +1,186 @@
+global coverage_group 0 0 fft_buffer_pkg::fft_buffer_coverage::stimulus_cg __coverage_fft_buffer_coverage.stimulus_cg unused_fft_buffer_coverage_stimulus_cg_loop_label fft_buffer_pkg 0 0 0 0 0  ( 0 
+)
+ 1 1
+ 0 103 /home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh
+ 35 0 0 0 1 0 0 0 0  1
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_c
+ 0
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+0
+ 7 cp_data 38 0 0 0 0 0 0 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 12 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 11 value_range 39 0 0 1 0 0 0 0 0 0 0 0 0 0 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_1 0 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_2 0 0 0 0 0
+ 0
+
+ 6 cp_gap 42 0 0 0 0 0 0 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_3 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_3 0 0 0 0 0 0 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_4 0 0 0 0 -1 0 0 -1 0 0 0 -1 23 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 1 0 1 1 10 gap_cycles 43 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_1 0 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_5 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 13 gap_6_or_more 44 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_6 0 0 0 0 0 0 0
+ 0
+
+ 8 cp_ready 48 0 0 0 0 0 0 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_7 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_7 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 2 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 8 ready_00 49 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_8 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 ready_01 50 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_9 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 ready_10 51 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_a 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 ready_11 52 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_b 0 0 0 0 0 0 0
+ 0
+
+ 11 gap_x_ready 0 57 0 0 -1 137 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_stimulus_cg_fn_4 0 0 0 2 1 2 0 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 2 0 0 -1 0 0 1 1 24 outside_random_gap_range 58 0 2 0 1 1 1 0 1 1 13 gap_6_or_more 0 0 0 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 0 fft_buffer_pkg::fft_buffer_coverage::buffer_cg __coverage_fft_buffer_coverage.buffer_cg unused_fft_buffer_coverage_buffer_cg_loop_label fft_buffer_pkg 0 0 0 0 0  ( 0 
+)
+ 0 70 0 0 0 1 0 0 0 0  1
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_7
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 8 cp_event 72 0 0 0 0 0 0 133 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn 133 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 1 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 7 1 1 0 0 1 1 19 accepted_and_output 73 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_0_filled 74 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_1_filled 75 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_2 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_0_reused 76 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_1_reused 77 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_4 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 18 input_dropped_full 78 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_5 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 18 collection_resumed 79 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_6 0 0 0 0 0 0 0
+ 0
+
+end_coverage_group

@@ -1,0 +1,251 @@
+verdiWindowResize -win $_vdCoverage_1 "1470" "370" "1034" "710"
+gui_set_pref_value -category {coveragesetting} -key {geninfodumping} -value 1
+gui_exclusion -set_force true
+verdiSetFont  -font  {DejaVu Sans}  -size  12
+verdiSetFont -font "DejaVu Sans" -size "12"
+gui_assert_mode -mode flat
+gui_class_mode -mode hier
+gui_excl_mgr_flat_list -on  0
+gui_covdetail_select -id  CovDetail.1   -name   Line
+verdiWindowWorkMode -win $_vdCoverage_1 -coverageAnalysis
+gui_open_cov  -hier /home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/runs_4QZOQd/codecov_merged_fixed.vdb -testdir {} -test {/home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/runs_4QZOQd/codecov_merged_fixed/test} -merge MergedTest -db_max_tests 10 -sdc_level 1 -fsm transition
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_Assert} -value {true}
+verdiSetActWin -dock widgetDock_<CovDetail>
+verdiWindowResize -win $_vdCoverage_1 "1470" "370" "1034" "710"
+verdiSetActWin -dock widgetDock_<Summary>
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { tb_top   }
+gui_list_expand -id  CoverageTable.1   -list {covtblInstancesList} tb_top
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { tb_top   }
+gui_list_select -id CoverageTable.1 -list covtblInstancesList { tb_top.dut   }
+gui_list_action -id  CoverageTable.1 -list {covtblInstancesList} tb_top.dut  -column {} 
+verdiWindowResize -win $_vdCoverage_1 "724" "464" "1635" "710"
+gui_covdetail_select -id  CovDetail.1   -name   Toggle
+verdiSetActWin -dock widgetDock_<CovDetail>
+gui_covdetail_select -id  CovDetail.1   -name   FSM
+gui_covdetail_select -id  CovDetail.1   -name   Condition
+gui_covdetail_select -id  CovDetail.1   -name   FSM
+gui_list_select -id CovDetail.1 -list fsmnames { c_state   }
+gui_list_action -id  CovDetail.1 -list {fsmnames} c_state
+gui_covdetail_select -id  CovDetail.1   -name   Condition
+gui_list_select -id CovDetail.1 -list cond { {(o_buf_data_valid && i_buf_data_ready)}   }
+gui_list_action -id  CovDetail.1 -list {cond} {(o_buf_data_valid && i_buf_data_ready)}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Line_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_pos} -value {11}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_U+C_pos} -value {12}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_U_pos} -value {13}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_C_pos} -value {14}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_X_pos} -value {15}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Toggle_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_pos} -value {16}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_U+C_pos} -value {17}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_U_pos} -value {18}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_C_pos} -value {19}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_X_pos} -value {20}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_FSM_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_pos} -value {21}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_U+C_pos} -value {22}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_U_pos} -value {23}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_C_pos} -value {24}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_X_pos} -value {25}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Condition_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_pos} -value {26}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_U+C_pos} -value {27}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_U_pos} -value {28}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_C_pos} -value {29}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_X_pos} -value {30}
+gui_set_pref_value -category {ColumnCfg} -key {covtblInstancesList_V1.1_Branch_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Line_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_pos} -value {11}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_U+C_pos} -value {12}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_U_pos} -value {13}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_C_pos} -value {14}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_X_pos} -value {15}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Toggle_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_pos} -value {16}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_U+C_pos} -value {17}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_U_pos} -value {18}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_C_pos} -value {19}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_X_pos} -value {20}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_FSM_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_pos} -value {21}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_U+C_pos} -value {22}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_U_pos} -value {23}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_C_pos} -value {24}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_X_pos} -value {25}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Condition_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_pos} -value {26}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_U+C_pos} -value {27}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_U_pos} -value {28}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_C_pos} -value {29}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_X_pos} -value {30}
+gui_set_pref_value -category {ColumnCfg} -key {covtblModulesList_V1.1_Branch_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_flat_V1.1_Line_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_U+C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_U} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_C} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblClassList_hier_V1.1_Line_X} -value {false}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Score_pos} -value {5}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Score_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Score} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Instances_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Instances_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Instances} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U+C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U+C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_U} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_X_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_X} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Goal_pos} -value {11}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Goal_width} -value {40}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Goal} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Weight_pos} -value {12}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Weight_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Weight} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AtLeast_pos} -value {13}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AtLeast_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AtLeast} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_PerInst_pos} -value {14}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_PerInst_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_PerInst} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Overlap_pos} -value {15}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Overlap_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Overlap} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AutoBinMax_pos} -value {16}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AutoBinMax_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_AutoBinMax} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Missing_pos} -value {17}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Missing_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Missing} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Comment_pos} -value {18}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Comment_width} -value {200}
+gui_set_pref_value -category {ColumnCfg} -key {covtblFGroupsList_V1.1_Comment} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Score_pos} -value {5}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Score_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Score} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Instances_pos} -value {6}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Instances_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Instances} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U+C_pos} -value {7}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U+C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U+C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U_pos} -value {8}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_U} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_C_pos} -value {9}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_C_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_C} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_X_pos} -value {10}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_X_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_X} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Goal_pos} -value {11}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Goal_width} -value {40}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Goal} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Weight_pos} -value {12}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Weight_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Weight} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AtLeast_pos} -value {13}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AtLeast_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AtLeast} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_PerInst_pos} -value {14}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_PerInst_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_PerInst} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Overlap_pos} -value {15}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Overlap_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Overlap} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AutoBinMax_pos} -value {16}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AutoBinMax_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_AutoBinMax} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Missing_pos} -value {17}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Missing_width} -value {50}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Missing} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Comment_pos} -value {18}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Comment_width} -value {200}
+gui_set_pref_value -category {ColumnCfg} -key {covtblCcexFGroupsList_V1.1_Comment} -value {true}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_flat_V1.1_Gen_Info_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_hier_V1.1_Gen_Info_width} -value {100}
+gui_set_pref_value -category {ColumnCfg} -key {covtblAssertList_module_V1.1_Gen_Info_width} -value {100}
+vdCovExit -noprompt

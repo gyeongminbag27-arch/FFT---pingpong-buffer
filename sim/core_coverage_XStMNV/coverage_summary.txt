@@ -1,0 +1,18 @@
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(161) @ 10135000: uvm_test_top.env.coverage [COV_SUMMARY] buffer coverage=85.71% (7 bins, scoreboard-model events)
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] accepted_and_output hits=64
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] buffer_0_filled hits=3
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] buffer_1_filled hits=1
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] buffer_0_reused hits=1
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] buffer_1_reused hits=0
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(182) @ 10135000: uvm_test_top.env.coverage [COV_MISSING] buffer_1_reused
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] input_dropped_full hits=4
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(171) @ 10135000: uvm_test_top.env.coverage [COV_BIN] collection_resumed hits=1
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(613) @ 10135000: uvm_test_top.env.scoreboard [SB_SUMMARY] adc=516 frames=4 pairs=256 matches=256 pending=0 accepted=512 dropped=4 accepted_after_overflow=128
+UVM_INFO ../../tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(630) @ 10135000: uvm_test_top.env.scoreboard [SB_RESET_SUMMARY] idle_resets=1 expected=1
+UVM_ERROR :    0
+UVM_FATAL :    0
+[COV_BIN]     7
+[COV_MISSING]     1
+[COV_SUMMARY]     1
+[SB_RESET_SUMMARY]     1
+[SB_SUMMARY]     1

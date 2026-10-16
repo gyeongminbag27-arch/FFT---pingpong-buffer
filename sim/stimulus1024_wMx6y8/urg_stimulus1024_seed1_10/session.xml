@@ -1,0 +1,29 @@
+<session version="1.1" release="W-2024.09-SP2" timestp="2026-10-06 13:14:09 GMT">
+  <info>
+    <attr name="datetime" value="Tue Oct  6 22:14:15 2026
+"/>
+    <attr name="command" value="urg -full64 -dir stimulus1024_seed1.vdb stimulus1024_seed2.vdb stimulus1024_seed3.vdb stimulus1024_seed4.vdb stimulus1024_seed5.vdb stimulus1024_seed6.vdb stimulus1024_seed7.vdb stimulus1024_seed8.vdb stimulus1024_seed9.vdb stimulus1024_seed10.vdb -dbname stimulus1024_merged_seed1_10.vdb -report urg_stimulus1024_seed1_10"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="99.9267%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="fft_buffer_pkg::fft_buffer_coverage::stimulus_cg">
+      <metric name="Group" value="99.8535%" />
+    </scope>
+    <scope type="group" name="fft_buffer_pkg::fft_buffer_coverage::buffer_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

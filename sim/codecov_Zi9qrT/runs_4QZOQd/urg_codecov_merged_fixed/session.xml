@@ -1,0 +1,40 @@
+<session version="1.1" release="W-2024.09-SP2" timestp="2026-10-06 14:09:54 GMT">
+  <info>
+    <attr name="datetime" value="Tue Oct  6 23:12:24 2026
+"/>
+    <attr name="command" value="urg -full64 -dir ../codecov_build.vdb directed.vdb random_seed1.vdb random_seed2.vdb random_seed3.vdb random_seed4.vdb random_seed5.vdb random_seed6.vdb random_seed7.vdb random_seed8.vdb random_seed9.vdb random_seed10.vdb -dbname codecov_merged_fixed.vdb -report urg_codecov_merged_fixed"/>
+    <attr name="top_instance" value="tb_top,uvm_custom_install_verdi_recording"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="78/78" />
+    <metric name="Cond" value="23/24" />
+    <metric name="Toggle" value="420/532" />
+    <metric name="FSM" value="4/5" />
+    <metric name="Branch" value="31/32" />
+    <metric name="Group" value="99.9267%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="fft_buffer_pkg::fft_buffer_coverage::stimulus_cg">
+      <metric name="Group" value="99.8535%" />
+    </scope>
+    <scope type="group" name="fft_buffer_pkg::fft_buffer_coverage::buffer_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

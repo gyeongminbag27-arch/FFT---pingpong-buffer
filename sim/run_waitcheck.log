@@ -1,0 +1,58 @@
+Command: /home/pedu12/workspace/fft_buffer/sim/./simv_waitcheck -l run_waitcheck.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2_Full64; Runtime version W-2024.09-SP2_Full64;  Sep 30 10:48 2026
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test fft_buffer_base_test...
+UVM_INFO ../tb/UVM_test/fft_buffer_test.svh(31) @ 0: uvm_test_top [TEST_REV] ADC and Core sequences run concurrently
+UVM_INFO ../tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 55000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 3 cycles
+UVM_INFO ../tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(87) @ 65000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=65000 sample=25
+UVM_INFO ../tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(87) @ 75000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=75000 sample=30
+UVM_INFO ../tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(87) @ 85000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=85000 sample=40
+UVM_INFO ../tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 85000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 3 cycles
+UVM_INFO ../tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 115000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 10 cycles
+UVM_INFO ../tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 215000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 2 cycles
+UVM_INFO ../tb/UVM_test/fft_buffer_test.svh(52) @ 235000: uvm_test_top [WAIT_BEGIN] Both sequences finished; starting 20ns observation
+UVM_INFO ../tb/UVM_test/fft_buffer_test.svh(60) @ 255000: uvm_test_top [WAIT_END] Observation finished
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP2/etc/uvm/base/uvm_objection.svh(1274) @ 255000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   12
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[ADC_MON]     3
+[CORE_DRV]     4
+[RNTST]     1
+[TEST_DONE]     1
+[TEST_REV]     1
+[WAIT_BEGIN]     1
+[WAIT_END]     1
+$finish called from file "/tools/synopsys/vcs/W-2024.09-SP2/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time               255000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 255000 ps
+CPU Time:      0.130 seconds;       Data structure size:   0.3Mb
+Wed Sep 30 10:48:24 2026

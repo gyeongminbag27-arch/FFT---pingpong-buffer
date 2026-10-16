@@ -1,0 +1,4 @@
+\$unit::./rtl/fft_buffer.v::./tb/fft_buffer_if.sv...@2402533132 02
+tb_top00
+tb_top.dut2790
+uvm_custom_install_verdi_recording00

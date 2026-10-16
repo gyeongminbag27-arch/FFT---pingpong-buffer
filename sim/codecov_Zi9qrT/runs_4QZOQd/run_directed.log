@@ -1,0 +1,1126 @@
+Command: /home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/./simv_codecov +UVM_TESTNAME=fft_buffer_base_test +ntb_random_seed=1 -cm line+tgl+cond+branch+fsm -cm_dir /home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/runs_4QZOQd/directed.vdb -l /home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/runs_4QZOQd/run_directed.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2_Full64; Runtime version W-2024.09-SP2_Full64;  Oct  6 23:09 2026
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test fft_buffer_base_test...
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(124) @ 0: uvm_test_top.env.scoreboard [SB_CONFIG] expected_frames=5 expected_accepted=640 expected_pairs=320 expected_drops=4 allow_overflow=1
+UVM_INFO ./tb/UVM_test/fft_buffer_test.svh(81) @ 0: uvm_test_top [TEST_REV] Overflow recovery, reuse of both buffers, idle reset, and one post-reset frame
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_sequence.svh(51) @ 0: uvm_test_top.env.adc_agt.sequencer@@adc_seq [ADC_SEQ] Sending 256 samples to fill both buffers
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 55000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(271) @ 55000: uvm_test_top.env.core_agt.monitor [CORE_OVERFLOW] overflow=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 55000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 270 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 65000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=65000 sample=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 65000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 75000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=75000 sample=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 85000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=85000 sample=2
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 95000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=95000 sample=3
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=105000 sample=4
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=115000 sample=5
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=125000 sample=6
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=135000 sample=7
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=145000 sample=8
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=155000 sample=9
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=165000 sample=10
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=175000 sample=11
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=185000 sample=12
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=195000 sample=13
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=205000 sample=14
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=215000 sample=15
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=225000 sample=16
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=235000 sample=17
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=245000 sample=18
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=255000 sample=19
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=265000 sample=20
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=275000 sample=21
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=285000 sample=22
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=295000 sample=23
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=305000 sample=24
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=315000 sample=25
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=325000 sample=26
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=335000 sample=27
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=345000 sample=28
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=355000 sample=29
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=365000 sample=30
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=375000 sample=31
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=385000 sample=32
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=395000 sample=33
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=405000 sample=34
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=415000 sample=35
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=425000 sample=36
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=435000 sample=37
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=445000 sample=38
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=455000 sample=39
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=465000 sample=40
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=475000 sample=41
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=485000 sample=42
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=495000 sample=43
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=505000 sample=44
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=515000 sample=45
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=525000 sample=46
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=535000 sample=47
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=545000 sample=48
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=555000 sample=49
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=565000 sample=50
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=575000 sample=51
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=585000 sample=52
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=595000 sample=53
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=605000 sample=54
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=615000 sample=55
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=625000 sample=56
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=635000 sample=57
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=645000 sample=58
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=655000 sample=59
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=665000 sample=60
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=675000 sample=61
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=685000 sample=62
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=695000 sample=63
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=705000 sample=64
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=715000 sample=65
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=725000 sample=66
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=735000 sample=67
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=745000 sample=68
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=755000 sample=69
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=765000 sample=70
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=775000 sample=71
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=785000 sample=72
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=795000 sample=73
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=805000 sample=74
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=815000 sample=75
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=825000 sample=76
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=835000 sample=77
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=845000 sample=78
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=855000 sample=79
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=865000 sample=80
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=875000 sample=81
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=885000 sample=82
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=895000 sample=83
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=905000 sample=84
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=915000 sample=85
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=925000 sample=86
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=935000 sample=87
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=945000 sample=88
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=955000 sample=89
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=965000 sample=90
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=975000 sample=91
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=985000 sample=92
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=995000 sample=93
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1005000 sample=94
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1015000 sample=95
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1025000 sample=96
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1035000 sample=97
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1045000 sample=98
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1055000 sample=99
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1065000 sample=100
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1075000 sample=101
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1085000 sample=102
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1095000 sample=103
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1105000 sample=104
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1115000 sample=105
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1125000 sample=106
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1135000 sample=107
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1145000 sample=108
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1155000 sample=109
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1165000 sample=110
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1175000 sample=111
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1185000 sample=112
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1195000 sample=113
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1205000 sample=114
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1215000 sample=115
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1225000 sample=116
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1235000 sample=117
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1245000 sample=118
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1255000 sample=119
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1265000 sample=120
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1275000 sample=121
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1285000 sample=122
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1295000 sample=123
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1305000 sample=124
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1315000 sample=125
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1325000 sample=126
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1335000 sample=127
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1345000 sample=128
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1355000 sample=129
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1365000 sample=130
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1375000 sample=131
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1385000 sample=132
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1395000 sample=133
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1405000 sample=134
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1415000 sample=135
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1425000 sample=136
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1435000 sample=137
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1445000 sample=138
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1455000 sample=139
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1465000 sample=140
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1475000 sample=141
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1485000 sample=142
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1495000 sample=143
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1505000 sample=144
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1515000 sample=145
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1525000 sample=146
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1535000 sample=147
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1545000 sample=148
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1555000 sample=149
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1565000 sample=150
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1575000 sample=151
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1585000 sample=152
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1595000 sample=153
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1605000 sample=154
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1615000 sample=155
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1625000 sample=156
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1635000 sample=157
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1645000 sample=158
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1655000 sample=159
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1665000 sample=160
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1675000 sample=161
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1685000 sample=162
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1695000 sample=163
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1705000 sample=164
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1715000 sample=165
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1725000 sample=166
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1735000 sample=167
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1745000 sample=168
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1755000 sample=169
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1765000 sample=170
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1775000 sample=171
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1785000 sample=172
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1795000 sample=173
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1805000 sample=174
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1815000 sample=175
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1825000 sample=176
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1835000 sample=177
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1845000 sample=178
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1855000 sample=179
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1865000 sample=180
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1875000 sample=181
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1885000 sample=182
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1895000 sample=183
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1905000 sample=184
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1915000 sample=185
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1925000 sample=186
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1935000 sample=187
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1945000 sample=188
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1955000 sample=189
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1965000 sample=190
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1975000 sample=191
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1985000 sample=192
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1995000 sample=193
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2005000 sample=194
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2015000 sample=195
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2025000 sample=196
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2035000 sample=197
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2045000 sample=198
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2055000 sample=199
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2065000 sample=200
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2075000 sample=201
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2085000 sample=202
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2095000 sample=203
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2105000 sample=204
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2115000 sample=205
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2125000 sample=206
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2135000 sample=207
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2145000 sample=208
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2155000 sample=209
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2165000 sample=210
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2175000 sample=211
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2185000 sample=212
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2195000 sample=213
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2205000 sample=214
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2215000 sample=215
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2225000 sample=216
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2235000 sample=217
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2245000 sample=218
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2255000 sample=219
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2265000 sample=220
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2275000 sample=221
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2285000 sample=222
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2295000 sample=223
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2305000 sample=224
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2315000 sample=225
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2325000 sample=226
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2335000 sample=227
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2345000 sample=228
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2355000 sample=229
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2365000 sample=230
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2375000 sample=231
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2385000 sample=232
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2395000 sample=233
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2405000 sample=234
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2415000 sample=235
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2425000 sample=236
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2435000 sample=237
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2445000 sample=238
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2455000 sample=239
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2465000 sample=240
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2475000 sample=241
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2485000 sample=242
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2495000 sample=243
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2505000 sample=244
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2515000 sample=245
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2525000 sample=246
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2535000 sample=247
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2545000 sample=248
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2555000 sample=249
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2565000 sample=250
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2575000 sample=251
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2585000 sample=252
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2595000 sample=253
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2605000 sample=254
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2615000 sample=255
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_sequence.svh(66) @ 2615000: uvm_test_top.env.adc_agt.sequencer@@adc_seq [ADC_SEQ] Sending 4 samples that must be dropped
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2625000 sample=3840
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 2625000: uvm_test_top.env.scoreboard [SB_DROP] time=2625000 sample=3840 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2635000 sample=3841
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(271) @ 2635000: uvm_test_top.env.core_agt.monitor [CORE_OVERFLOW] overflow=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 2635000: uvm_test_top.env.scoreboard [SB_DROP] time=2635000 sample=3841 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2645000 sample=3842
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 2645000: uvm_test_top.env.scoreboard [SB_DROP] time=2645000 sample=3842 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2655000 sample=3843
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 2655000: uvm_test_top.env.scoreboard [SB_DROP] time=2655000 sample=3843 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_sequence.svh(82) @ 2655000: uvm_test_top.env.adc_agt.sequencer@@adc_seq [ADC_SEQ] Waiting 140 cycles before sending the recovery frame
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2755000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 800 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 2765000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 2765000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000000000 data1=0x0000100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000200000 data1=0x0000300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000400000 data1=0x0000500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000600000 data1=0x0000700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000800000 data1=0x0000900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000a00000 data1=0x0000b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000c00000 data1=0x0000d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0000e00000 data1=0x0000f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001000000 data1=0x0001100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001200000 data1=0x0001300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 2985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001400000 data1=0x0001500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001600000 data1=0x0001700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001800000 data1=0x0001900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001a00000 data1=0x0001b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001c00000 data1=0x0001d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001e00000 data1=0x0001f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002000000 data1=0x0002100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002200000 data1=0x0002300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002400000 data1=0x0002500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002600000 data1=0x0002700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002800000 data1=0x0002900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002a00000 data1=0x0002b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002c00000 data1=0x0002d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002e00000 data1=0x0002f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003000000 data1=0x0003100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003200000 data1=0x0003300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003400000 data1=0x0003500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003600000 data1=0x0003700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003800000 data1=0x0003900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003a00000 data1=0x0003b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003c00000 data1=0x0003d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003e00000 data1=0x0003f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004000000 data1=0x0004100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004200000 data1=0x0004300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004400000 data1=0x0004500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004600000 data1=0x0004700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004800000 data1=0x0004900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004a00000 data1=0x0004b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004c00000 data1=0x0004d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004e00000 data1=0x0004f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005000000 data1=0x0005100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005200000 data1=0x0005300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005400000 data1=0x0005500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005600000 data1=0x0005700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005800000 data1=0x0005900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005a00000 data1=0x0005b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005c00000 data1=0x0005d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005e00000 data1=0x0005f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006000000 data1=0x0006100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006200000 data1=0x0006300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006400000 data1=0x0006500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006600000 data1=0x0006700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006800000 data1=0x0006900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006a00000 data1=0x0006b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006c00000 data1=0x0006d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0006e00000 data1=0x0006f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007000000 data1=0x0007100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007200000 data1=0x0007300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007400000 data1=0x0007500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007600000 data1=0x0007700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 3985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007800000 data1=0x0007900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007a00000 data1=0x0007b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007c00000 data1=0x0007d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0007e00000 data1=0x0007f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 4045000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=1 completed 64 pairs; total_pairs=64
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 4055000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4065000 sample=512
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4075000 sample=513
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4075000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008000000 data1=0x0008100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4085000 sample=514
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4095000 sample=515
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4095000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008200000 data1=0x0008300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4105000 sample=516
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4115000 sample=517
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4115000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008400000 data1=0x0008500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4125000 sample=518
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4135000 sample=519
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4135000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008600000 data1=0x0008700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4145000 sample=520
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4155000 sample=521
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4155000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008800000 data1=0x0008900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4165000 sample=522
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4175000 sample=523
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4175000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008a00000 data1=0x0008b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4185000 sample=524
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4195000 sample=525
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4195000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008c00000 data1=0x0008d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4205000 sample=526
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4215000 sample=527
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4215000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008e00000 data1=0x0008f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4225000 sample=528
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4235000 sample=529
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4235000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009000000 data1=0x0009100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4245000 sample=530
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4255000 sample=531
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4255000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009200000 data1=0x0009300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4265000 sample=532
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4275000 sample=533
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4275000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009400000 data1=0x0009500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4285000 sample=534
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4295000 sample=535
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4295000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009600000 data1=0x0009700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4305000 sample=536
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4315000 sample=537
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4315000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009800000 data1=0x0009900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4325000 sample=538
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4335000 sample=539
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4335000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009a00000 data1=0x0009b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4345000 sample=540
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4355000 sample=541
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4355000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009c00000 data1=0x0009d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4365000 sample=542
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4375000 sample=543
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4375000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009e00000 data1=0x0009f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4385000 sample=544
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4395000 sample=545
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4395000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000a000000 data1=0x000a100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4405000 sample=546
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4415000 sample=547
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4415000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000a200000 data1=0x000a300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4425000 sample=548
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4435000 sample=549
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4435000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000a400000 data1=0x000a500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4445000 sample=550
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4455000 sample=551
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4455000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000a600000 data1=0x000a700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4465000 sample=552
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4475000 sample=553
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4475000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000a800000 data1=0x000a900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4485000 sample=554
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4495000 sample=555
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4495000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000aa00000 data1=0x000ab00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4505000 sample=556
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4515000 sample=557
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4515000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ac00000 data1=0x000ad00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4525000 sample=558
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4535000 sample=559
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4535000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ae00000 data1=0x000af00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4545000 sample=560
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4555000 sample=561
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4555000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000b000000 data1=0x000b100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4565000 sample=562
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4575000 sample=563
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4575000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000b200000 data1=0x000b300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4585000 sample=564
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4595000 sample=565
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4595000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000b400000 data1=0x000b500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4605000 sample=566
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4615000 sample=567
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4615000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000b600000 data1=0x000b700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4625000 sample=568
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4635000 sample=569
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4635000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000b800000 data1=0x000b900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4645000 sample=570
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4655000 sample=571
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4655000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ba00000 data1=0x000bb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4665000 sample=572
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4675000 sample=573
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4675000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000bc00000 data1=0x000bd00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4685000 sample=574
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4695000 sample=575
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4695000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000be00000 data1=0x000bf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4705000 sample=576
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4715000 sample=577
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4715000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c000000 data1=0x000c100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4725000 sample=578
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4735000 sample=579
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4735000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c200000 data1=0x000c300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4745000 sample=580
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4755000 sample=581
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4755000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c400000 data1=0x000c500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4765000 sample=582
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4775000 sample=583
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4775000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c600000 data1=0x000c700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4785000 sample=584
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4795000 sample=585
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4795000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c800000 data1=0x000c900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4805000 sample=586
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4815000 sample=587
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4815000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ca00000 data1=0x000cb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4825000 sample=588
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4835000 sample=589
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4835000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000cc00000 data1=0x000cd00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4845000 sample=590
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4855000 sample=591
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4855000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ce00000 data1=0x000cf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4865000 sample=592
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4875000 sample=593
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4875000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000d000000 data1=0x000d100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4885000 sample=594
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4895000 sample=595
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4895000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000d200000 data1=0x000d300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4905000 sample=596
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4915000 sample=597
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4915000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000d400000 data1=0x000d500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4925000 sample=598
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4935000 sample=599
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4935000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000d600000 data1=0x000d700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4945000 sample=600
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4955000 sample=601
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4955000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000d800000 data1=0x000d900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4965000 sample=602
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4975000 sample=603
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4975000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000da00000 data1=0x000db00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4985000 sample=604
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4995000 sample=605
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 4995000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000dc00000 data1=0x000dd00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5005000 sample=606
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5015000 sample=607
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5015000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000de00000 data1=0x000df00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5025000 sample=608
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5035000 sample=609
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5035000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000e000000 data1=0x000e100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5045000 sample=610
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5055000 sample=611
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5055000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000e200000 data1=0x000e300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5065000 sample=612
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5075000 sample=613
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5075000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000e400000 data1=0x000e500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5085000 sample=614
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5095000 sample=615
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5095000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000e600000 data1=0x000e700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5105000 sample=616
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5115000 sample=617
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5115000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000e800000 data1=0x000e900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5125000 sample=618
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5135000 sample=619
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5135000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ea00000 data1=0x000eb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5145000 sample=620
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5155000 sample=621
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5155000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ec00000 data1=0x000ed00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5165000 sample=622
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5175000 sample=623
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5175000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000ee00000 data1=0x000ef00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5185000 sample=624
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5195000 sample=625
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5195000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000f000000 data1=0x000f100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5205000 sample=626
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5215000 sample=627
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5215000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000f200000 data1=0x000f300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5225000 sample=628
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5235000 sample=629
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5235000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000f400000 data1=0x000f500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5245000 sample=630
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5255000 sample=631
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5255000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000f600000 data1=0x000f700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5265000 sample=632
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5275000 sample=633
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5275000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000f800000 data1=0x000f900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5285000 sample=634
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5295000 sample=635
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5295000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000fa00000 data1=0x000fb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5305000 sample=636
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5315000 sample=637
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5315000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000fc00000 data1=0x000fd00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5325000 sample=638
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5335000 sample=639
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5335000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000fe00000 data1=0x000ff00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 5335000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=2 completed 64 pairs; total_pairs=128
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_sequence.svh(96) @ 5335000: uvm_test_top.env.adc_agt.sequencer@@adc_seq [ADC_SEQ] Waiting 140 cycles before refilling buffer 1: samples 768 through 895
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 5345000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020000000 data1=0x0020100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020200000 data1=0x0020300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020400000 data1=0x0020500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020600000 data1=0x0020700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020800000 data1=0x0020900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020a00000 data1=0x0020b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020c00000 data1=0x0020d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0020e00000 data1=0x0020f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021000000 data1=0x0021100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021200000 data1=0x0021300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021400000 data1=0x0021500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021600000 data1=0x0021700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021800000 data1=0x0021900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021a00000 data1=0x0021b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021c00000 data1=0x0021d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0021e00000 data1=0x0021f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022000000 data1=0x0022100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022200000 data1=0x0022300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022400000 data1=0x0022500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022600000 data1=0x0022700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022800000 data1=0x0022900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022a00000 data1=0x0022b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022c00000 data1=0x0022d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0022e00000 data1=0x0022f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023000000 data1=0x0023100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023200000 data1=0x0023300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023400000 data1=0x0023500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023600000 data1=0x0023700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023800000 data1=0x0023900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023a00000 data1=0x0023b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023c00000 data1=0x0023d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 5985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0023e00000 data1=0x0023f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024000000 data1=0x0024100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024200000 data1=0x0024300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024400000 data1=0x0024500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024600000 data1=0x0024700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024800000 data1=0x0024900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024a00000 data1=0x0024b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024c00000 data1=0x0024d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024e00000 data1=0x0024f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025000000 data1=0x0025100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025200000 data1=0x0025300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025400000 data1=0x0025500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025600000 data1=0x0025700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025800000 data1=0x0025900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025a00000 data1=0x0025b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025c00000 data1=0x0025d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025e00000 data1=0x0025f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026000000 data1=0x0026100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026200000 data1=0x0026300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026400000 data1=0x0026500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026600000 data1=0x0026700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026800000 data1=0x0026900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026a00000 data1=0x0026b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026c00000 data1=0x0026d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0026e00000 data1=0x0026f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027000000 data1=0x0027100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027200000 data1=0x0027300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027400000 data1=0x0027500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027600000 data1=0x0027700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027800000 data1=0x0027900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027a00000 data1=0x0027b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027c00000 data1=0x0027d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 6625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0027e00000 data1=0x0027f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 6625000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=3 completed 64 pairs; total_pairs=192
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6745000 sample=768
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6755000 sample=769
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6765000 sample=770
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6775000 sample=771
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6785000 sample=772
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6795000 sample=773
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6805000 sample=774
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6815000 sample=775
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6825000 sample=776
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6835000 sample=777
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6845000 sample=778
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6855000 sample=779
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6865000 sample=780
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6875000 sample=781
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6885000 sample=782
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6895000 sample=783
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6905000 sample=784
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6915000 sample=785
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6925000 sample=786
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6935000 sample=787
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6945000 sample=788
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6955000 sample=789
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6965000 sample=790
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6975000 sample=791
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6985000 sample=792
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6995000 sample=793
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7005000 sample=794
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7015000 sample=795
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7025000 sample=796
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7035000 sample=797
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7045000 sample=798
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7055000 sample=799
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7065000 sample=800
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7075000 sample=801
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7085000 sample=802
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7095000 sample=803
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7105000 sample=804
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7115000 sample=805
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7125000 sample=806
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7135000 sample=807
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7145000 sample=808
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7155000 sample=809
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7165000 sample=810
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7175000 sample=811
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7185000 sample=812
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7195000 sample=813
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7205000 sample=814
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7215000 sample=815
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7225000 sample=816
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7235000 sample=817
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7245000 sample=818
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7255000 sample=819
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7265000 sample=820
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7275000 sample=821
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7285000 sample=822
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7295000 sample=823
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7305000 sample=824
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7315000 sample=825
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7325000 sample=826
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7335000 sample=827
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7345000 sample=828
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7355000 sample=829
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7365000 sample=830
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7375000 sample=831
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7385000 sample=832
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7395000 sample=833
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7405000 sample=834
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7415000 sample=835
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7425000 sample=836
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7435000 sample=837
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7445000 sample=838
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7455000 sample=839
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7465000 sample=840
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7475000 sample=841
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7485000 sample=842
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7495000 sample=843
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7505000 sample=844
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7515000 sample=845
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7525000 sample=846
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7535000 sample=847
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7545000 sample=848
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7555000 sample=849
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7565000 sample=850
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7575000 sample=851
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7585000 sample=852
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7595000 sample=853
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7605000 sample=854
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7615000 sample=855
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7625000 sample=856
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7635000 sample=857
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7645000 sample=858
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7655000 sample=859
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7665000 sample=860
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7675000 sample=861
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7685000 sample=862
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7695000 sample=863
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7705000 sample=864
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7715000 sample=865
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7725000 sample=866
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7735000 sample=867
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7745000 sample=868
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7755000 sample=869
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7765000 sample=870
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7775000 sample=871
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7785000 sample=872
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7795000 sample=873
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7805000 sample=874
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7815000 sample=875
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7825000 sample=876
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7835000 sample=877
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7845000 sample=878
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7855000 sample=879
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7865000 sample=880
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7875000 sample=881
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7885000 sample=882
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7895000 sample=883
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7905000 sample=884
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7915000 sample=885
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7925000 sample=886
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7935000 sample=887
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7945000 sample=888
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7955000 sample=889
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7965000 sample=890
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7975000 sample=891
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7985000 sample=892
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7995000 sample=893
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8005000 sample=894
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8015000 sample=895
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 8025000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030000000 data1=0x0030100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030200000 data1=0x0030300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030400000 data1=0x0030500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030600000 data1=0x0030700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030800000 data1=0x0030900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030a00000 data1=0x0030b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030c00000 data1=0x0030d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030e00000 data1=0x0030f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031000000 data1=0x0031100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031200000 data1=0x0031300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031400000 data1=0x0031500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031600000 data1=0x0031700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031800000 data1=0x0031900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031a00000 data1=0x0031b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031c00000 data1=0x0031d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031e00000 data1=0x0031f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032000000 data1=0x0032100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032200000 data1=0x0032300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032400000 data1=0x0032500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032600000 data1=0x0032700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032800000 data1=0x0032900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032a00000 data1=0x0032b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032c00000 data1=0x0032d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032e00000 data1=0x0032f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033000000 data1=0x0033100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033200000 data1=0x0033300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033400000 data1=0x0033500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033600000 data1=0x0033700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033800000 data1=0x0033900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033a00000 data1=0x0033b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033c00000 data1=0x0033d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033e00000 data1=0x0033f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034000000 data1=0x0034100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034200000 data1=0x0034300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034400000 data1=0x0034500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034600000 data1=0x0034700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034800000 data1=0x0034900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034a00000 data1=0x0034b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034c00000 data1=0x0034d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0034e00000 data1=0x0034f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035000000 data1=0x0035100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035200000 data1=0x0035300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035400000 data1=0x0035500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035600000 data1=0x0035700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035800000 data1=0x0035900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035a00000 data1=0x0035b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035c00000 data1=0x0035d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 8985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035e00000 data1=0x0035f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036000000 data1=0x0036100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036200000 data1=0x0036300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036400000 data1=0x0036500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036600000 data1=0x0036700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036800000 data1=0x0036900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036a00000 data1=0x0036b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036c00000 data1=0x0036d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0036e00000 data1=0x0036f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037000000 data1=0x0037100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037200000 data1=0x0037300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037400000 data1=0x0037500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037600000 data1=0x0037700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037800000 data1=0x0037900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037a00000 data1=0x0037b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037c00000 data1=0x0037d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037e00000 data1=0x0037f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 9305000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=4 completed 64 pairs; total_pairs=256
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10765000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_test.svh(114) @ 10775000: uvm_test_top [RESET_REQUEST] Requesting reset after the first traffic sequence
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(199) @ 10785000: uvm_test_top.env.scoreboard [SB_IDLE_RESET] time=10785000 idle reset observed; count=1
+UVM_INFO ./tb/UVM_test/fft_buffer_test.svh(125) @ 10810000: uvm_test_top [RESET_DONE] Reset released; starting a new frame
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_sequence.svh(32) @ 10810000: uvm_test_top.env.adc_agt.sequencer@@adc_after_reset [ADC_SEQ] Sending one frame after reset: samples 1024 through 1151
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10815000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(271) @ 10815000: uvm_test_top.env.core_agt.monitor [CORE_OVERFLOW] overflow=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10815000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 300 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10825000 sample=1024
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10825000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10835000 sample=1025
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10845000 sample=1026
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10855000 sample=1027
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10865000 sample=1028
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10875000 sample=1029
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10885000 sample=1030
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10895000 sample=1031
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10905000 sample=1032
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10915000 sample=1033
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10925000 sample=1034
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10935000 sample=1035
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10945000 sample=1036
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10955000 sample=1037
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10965000 sample=1038
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10975000 sample=1039
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10985000 sample=1040
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 10995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=10995000 sample=1041
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11005000 sample=1042
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11015000 sample=1043
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11025000 sample=1044
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11035000 sample=1045
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11045000 sample=1046
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11055000 sample=1047
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11065000 sample=1048
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11075000 sample=1049
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11085000 sample=1050
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11095000 sample=1051
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11105000 sample=1052
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11115000 sample=1053
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11125000 sample=1054
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11135000 sample=1055
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11145000 sample=1056
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11155000 sample=1057
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11165000 sample=1058
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11175000 sample=1059
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11185000 sample=1060
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11195000 sample=1061
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11205000 sample=1062
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11215000 sample=1063
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11225000 sample=1064
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11235000 sample=1065
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11245000 sample=1066
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11255000 sample=1067
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11265000 sample=1068
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11275000 sample=1069
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11285000 sample=1070
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11295000 sample=1071
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11305000 sample=1072
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11315000 sample=1073
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11325000 sample=1074
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11335000 sample=1075
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11345000 sample=1076
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11355000 sample=1077
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11365000 sample=1078
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11375000 sample=1079
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11385000 sample=1080
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11395000 sample=1081
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11405000 sample=1082
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11415000 sample=1083
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11425000 sample=1084
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11435000 sample=1085
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11445000 sample=1086
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11455000 sample=1087
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11465000 sample=1088
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11475000 sample=1089
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11485000 sample=1090
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11495000 sample=1091
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11505000 sample=1092
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11515000 sample=1093
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11525000 sample=1094
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11535000 sample=1095
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11545000 sample=1096
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11555000 sample=1097
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11565000 sample=1098
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11575000 sample=1099
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11585000 sample=1100
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11595000 sample=1101
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11605000 sample=1102
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11615000 sample=1103
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11625000 sample=1104
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11635000 sample=1105
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11645000 sample=1106
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11655000 sample=1107
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11665000 sample=1108
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11675000 sample=1109
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11685000 sample=1110
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11695000 sample=1111
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11705000 sample=1112
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11715000 sample=1113
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11725000 sample=1114
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11735000 sample=1115
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11745000 sample=1116
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11755000 sample=1117
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11765000 sample=1118
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11775000 sample=1119
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11785000 sample=1120
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11795000 sample=1121
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11805000 sample=1122
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11815000 sample=1123
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11825000 sample=1124
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11835000 sample=1125
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11845000 sample=1126
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11855000 sample=1127
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11865000 sample=1128
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11875000 sample=1129
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11885000 sample=1130
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11895000 sample=1131
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11905000 sample=1132
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11915000 sample=1133
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11925000 sample=1134
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11935000 sample=1135
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11945000 sample=1136
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11955000 sample=1137
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11965000 sample=1138
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11975000 sample=1139
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11985000 sample=1140
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11995000 sample=1141
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12005000 sample=1142
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12015000 sample=1143
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12025000 sample=1144
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12035000 sample=1145
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12045000 sample=1146
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12055000 sample=1147
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12065000 sample=1148
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12075000 sample=1149
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12085000 sample=1150
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12095000 sample=1151
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 12105000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040000000 data1=0x0040100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040200000 data1=0x0040300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040400000 data1=0x0040500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040600000 data1=0x0040700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040800000 data1=0x0040900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040a00000 data1=0x0040b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040c00000 data1=0x0040d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040e00000 data1=0x0040f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041000000 data1=0x0041100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041200000 data1=0x0041300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041400000 data1=0x0041500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041600000 data1=0x0041700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041800000 data1=0x0041900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041a00000 data1=0x0041b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041c00000 data1=0x0041d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041e00000 data1=0x0041f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042000000 data1=0x0042100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042200000 data1=0x0042300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042400000 data1=0x0042500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042600000 data1=0x0042700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042800000 data1=0x0042900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042a00000 data1=0x0042b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042c00000 data1=0x0042d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0042e00000 data1=0x0042f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043000000 data1=0x0043100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043200000 data1=0x0043300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043400000 data1=0x0043500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043600000 data1=0x0043700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043800000 data1=0x0043900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043a00000 data1=0x0043b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043c00000 data1=0x0043d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0043e00000 data1=0x0043f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044000000 data1=0x0044100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044200000 data1=0x0044300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044400000 data1=0x0044500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044600000 data1=0x0044700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044800000 data1=0x0044900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044a00000 data1=0x0044b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044c00000 data1=0x0044d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0044e00000 data1=0x0044f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045000000 data1=0x0045100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045200000 data1=0x0045300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045400000 data1=0x0045500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045600000 data1=0x0045700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045800000 data1=0x0045900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045a00000 data1=0x0045b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045c00000 data1=0x0045d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045e00000 data1=0x0045f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046000000 data1=0x0046100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046200000 data1=0x0046300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046400000 data1=0x0046500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046600000 data1=0x0046700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046800000 data1=0x0046900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046a00000 data1=0x0046b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046c00000 data1=0x0046d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046e00000 data1=0x0046f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047000000 data1=0x0047100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047200000 data1=0x0047300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047400000 data1=0x0047500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047600000 data1=0x0047700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047800000 data1=0x0047900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047a00000 data1=0x0047b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047c00000 data1=0x0047d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047e00000 data1=0x0047f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 13385000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=5 completed 64 pairs; total_pairs=320
+UVM_INFO ./tb/UVM_test/fft_buffer_test.svh(161) @ 13815000: uvm_test_top [WAIT_BEGIN] Post-reset sequences finished; starting 20ns observation
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 13825000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_test.svh(169) @ 13835000: uvm_test_top [WAIT_END] Observation finished
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP2/etc/uvm/base/uvm_objection.svh(1274) @ 13835000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(335) @ 13835000: uvm_test_top.env.core_agt.monitor [CORE_HOLD_SUMMARY] checks=0 errors=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(345) @ 13835000: uvm_test_top.env.core_agt.monitor [FRAME_WAIT_SUMMARY] wait_cycles=142 hold_checks=142 errors=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(230) @ 13835000: uvm_test_top.env.coverage [STIM_COV_SUMMARY] inputs=644 data_ranges=161/1024 gap_bins=2/7 ready_bins=2/4 gap_ready=2/24
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(233) @ 13835000: uvm_test_top.env.coverage [STIM_COV_SCORE] data=15.72% gap=28.57% ready=50.00% gap_ready=8.33%
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap=0 hits=640
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap=1 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap=2 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap=3 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap=4 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap=5 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(244) @ 13835000: uvm_test_top.env.coverage [STIM_GAP] gap>=6 hits=2
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 13835000: uvm_test_top.env.coverage [STIM_READY] ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 13835000: uvm_test_top.env.coverage [STIM_READY] ready=01 hits=260
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 13835000: uvm_test_top.env.coverage [STIM_READY] ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 13835000: uvm_test_top.env.coverage [STIM_READY] ready=11 hits=384
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=01 hits=259
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=11 hits=381
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=01 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=11 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=01 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=11 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=01 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=11 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=01 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=11 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=00 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=01 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=10 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 13835000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=11 hits=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(279) @ 13835000: uvm_test_top.env.coverage [COV_SUMMARY] buffer coverage=100.00% (7 bins, scoreboard-model events)
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] accepted_and_output hits=64
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] buffer_0_filled hits=3
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] buffer_1_filled hits=2
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] buffer_0_reused hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] buffer_1_reused hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] input_dropped_full hits=4
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 13835000: uvm_test_top.env.coverage [COV_BIN] collection_resumed hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(613) @ 13835000: uvm_test_top.env.scoreboard [SB_SUMMARY] adc=644 frames=5 pairs=320 matches=320 pending=0 accepted=640 dropped=4 accepted_after_overflow=256
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(630) @ 13835000: uvm_test_top.env.scoreboard [SB_RESET_SUMMARY] idle_resets=1 expected=1
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO : 1054
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[ADC_MON]   644
+[ADC_SEQ]     5
+[CORE_DRV]     3
+[CORE_FRAME]     5
+[CORE_HOLD_SUMMARY]     1
+[CORE_OVERFLOW]     3
+[CORE_PAIR]   320
+[CORE_READY]     7
+[COV_BIN]     7
+[COV_SUMMARY]     1
+[FRAME_WAIT_SUMMARY]     1
+[RESET_DONE]     1
+[RESET_REQUEST]     1
+[RNTST]     1
+[SB_CONFIG]     1
+[SB_DROP]     4
+[SB_FRAME_DONE]     5
+[SB_IDLE_RESET]     1
+[SB_RESET_SUMMARY]     1
+[SB_SUMMARY]     1
+[STIM_COV_SCORE]     1
+[STIM_COV_SUMMARY]     1
+[STIM_CROSS]    24
+[STIM_GAP]     7
+[STIM_READY]     4
+[TEST_DONE]     1
+[TEST_REV]     1
+[WAIT_BEGIN]     1
+[WAIT_END]     1
+$finish called from file "/tools/synopsys/vcs/W-2024.09-SP2/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time             13835000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 13835000 ps
+CPU Time:      0.270 seconds;       Data structure size:   0.6Mb
+Tue Oct  6 23:09:51 2026

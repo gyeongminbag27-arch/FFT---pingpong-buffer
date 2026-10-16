@@ -1,0 +1,1199 @@
+Command: /home/pedu12/workspace/fft_buffer/sim/stimulus1024_wMx6y8/./simv_stimulus1024 +UVM_TESTNAME=fft_buffer_random_overflow_test +ntb_random_seed=8 -cm_dir stimulus1024_seed8.vdb -l run_stimulus1024_seed8.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2_Full64; Runtime version W-2024.09-SP2_Full64;  Oct  6 22:14 2026
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test fft_buffer_random_overflow_test...
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(124) @ 0: uvm_test_top.env.scoreboard [SB_CONFIG] expected_frames=4 expected_accepted=512 expected_pairs=256 expected_drops=4 allow_overflow=1
+UVM_INFO ./tb/UVM_test/fft_buffer_random_overflow_test.svh(112) @ 0: uvm_test_top [RANDOM_SCOPE] Random data/gaps and drain ready/hold; controlled fill, 4 drops, refill of both buffers; no mid-test reset
+UVM_INFO ./tb/UVM_test/fft_buffer_random_overflow_test.svh(124) @ 0: uvm_test_top [RAND_OVF_STAGE] Fill both buffers with output blocked
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 55000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(271) @ 55000: uvm_test_top.env.core_agt.monitor [CORE_OVERFLOW] overflow=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 55000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 65000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=115000 sample=2882
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=145000 sample=453
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=165000 sample=3101
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 215000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=225000 sample=1888
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=285000 sample=270
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 315000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=335000 sample=1727
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=345000 sample=177
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=365000 sample=2160
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=415000 sample=1892
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=435000 sample=1126
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 445000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=445000 sample=3030
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=475000 sample=2790
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 505000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=525000 sample=3150
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 525000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=585000 sample=1186
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=595000 sample=1044
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=635000 sample=3473
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=645000 sample=3047
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=695000 sample=3200
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=725000 sample=1700
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 725000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=775000 sample=3743
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=835000 sample=3421
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 865000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=895000 sample=447
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=905000 sample=2343
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=955000 sample=4049
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=965000 sample=1825
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=975000 sample=1776
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 975000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1005000 sample=2790
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1045000 sample=3655
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1105000 sample=2252
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1145000 sample=1899
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1155000 sample=1735
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1175000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1195000 sample=2467
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1215000 sample=2311
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1275000 sample=496
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1285000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1335000 sample=3138
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1355000 sample=524
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1405000 sample=1167
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1455000 sample=1778
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1465000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1515000 sample=1029
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1575000 sample=608
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1585000 sample=3623
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1605000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1645000 sample=3395
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1665000 sample=1504
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1685000 sample=1525
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1735000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1745000 sample=1549
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1805000 sample=2242
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1815000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1855000 sample=2092
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1915000 sample=3448
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1955000 sample=2319
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1955000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1975000 sample=3977
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 1975000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 1985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=1985000 sample=148
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2015000 sample=3439
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2075000 sample=3466
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2085000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2115000 sample=1482
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2125000 sample=1109
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2125000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2135000 sample=499
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2165000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2185000 sample=1586
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2195000 sample=315
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2195000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2215000 sample=678
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2245000 sample=3786
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2295000 sample=240
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2305000 sample=1458
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2365000 sample=2149
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2375000 sample=3154
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2395000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2435000 sample=2389
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2445000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2495000 sample=2619
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2535000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2555000 sample=3906
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2615000 sample=1689
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2665000 sample=4001
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2685000 sample=3518
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2695000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2725000 sample=511
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2745000 sample=4082
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2765000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2785000 sample=3536
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2805000 sample=2086
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2815000 sample=989
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2825000 sample=1464
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2835000 sample=1260
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2855000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2885000 sample=2409
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2945000 sample=3770
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 2975000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 6 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 2985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=2985000 sample=2688
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3015000 sample=1738
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3035000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3055000 sample=1385
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3095000 sample=3806
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3125000 sample=483
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3135000 sample=658
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3155000 sample=1681
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3155000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3205000 sample=757
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3225000 sample=1303
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3275000 sample=480
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3295000 sample=2084
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3335000 sample=1453
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3335000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3355000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 6 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3385000 sample=2326
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3405000 sample=3751
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3415000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3465000 sample=191
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3485000 sample=1241
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3525000 sample=3987
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3555000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3585000 sample=2778
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3645000 sample=1131
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3675000 sample=3789
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3695000 sample=393
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3745000 sample=2631
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3755000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3765000 sample=2929
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3795000 sample=3276
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3815000 sample=1187
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3845000 sample=2602
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3855000 sample=4011
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3865000 sample=433
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3875000 sample=3596
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3905000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3915000 sample=2806
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3925000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3945000 sample=1880
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 3965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=3965000 sample=785
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 3975000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4005000 sample=2023
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4025000 sample=85
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4055000 sample=936
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4085000 sample=591
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4085000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4115000 sample=3054
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4125000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4155000 sample=3909
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4165000 sample=2365
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4165000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4215000 sample=2260
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4235000 sample=2748
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4295000 sample=440
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4335000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4345000 sample=501
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4355000 sample=1724
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4365000 sample=3796
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4395000 sample=1011
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4415000 sample=2478
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4435000 sample=1688
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4465000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4475000 sample=1137
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4505000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4525000 sample=1903
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4575000 sample=2890
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4635000 sample=3342
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4635000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4675000 sample=3178
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4735000 sample=3220
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4775000 sample=1996
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4785000 sample=3364
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4795000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4845000 sample=1467
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 4845000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4855000 sample=2275
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4915000 sample=2572
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4925000 sample=1742
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 4985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=4985000 sample=671
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5005000 sample=1126
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5025000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5045000 sample=2754
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5065000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5095000 sample=3033
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5105000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5115000 sample=2312
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5145000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5145000 sample=327
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5185000 sample=1895
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5215000 sample=1547
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5265000 sample=3384
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5265000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5285000 sample=354
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5305000 sample=2561
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5335000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5335000 sample=2155
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5355000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5385000 sample=2189
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5385000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5395000 sample=2796
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5415000 sample=3932
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5425000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5475000 sample=2570
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5475000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5505000 sample=896
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5545000 sample=1387
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5575000 sample=1661
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5635000 sample=3205
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5665000 sample=580
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5665000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5705000 sample=1658
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5745000 sample=3549
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5745000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5775000 sample=3812
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5795000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5815000 sample=3877
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5865000 sample=2226
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5905000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 1 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5915000 sample=3064
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 5915000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 5965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=5965000 sample=2322
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6025000 sample=255
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6085000 sample=1185
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6105000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6135000 sample=463
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6175000 sample=801
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6185000 sample=1071
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6205000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6205000 sample=3892
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6235000 sample=1894
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6275000 sample=325
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6305000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6315000 sample=3957
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6335000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6355000 sample=3033
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6405000 sample=2449
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6425000 sample=3861
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6435000 sample=1065
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6465000 sample=1652
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6475000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6525000 sample=2079
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6535000 sample=3170
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6555000 sample=375
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6575000 sample=73
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6585000 sample=1748
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6595000 sample=485
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6615000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6625000 sample=3924
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6675000 sample=201
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6685000 sample=1654
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6685000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6705000 sample=2801
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6755000 sample=1801
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6785000 sample=56
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6785000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6835000 sample=2059
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6855000 sample=2485
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6885000 sample=2617
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 6925000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6935000 sample=3018
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6975000 sample=2231
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 6995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=6995000 sample=2895
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7015000 sample=1269
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7015000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7035000 sample=735
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7075000 sample=11
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7085000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7105000 sample=2404
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7165000 sample=2581
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7165000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7185000 sample=917
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7215000 sample=3771
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7245000 sample=2994
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7265000 sample=1617
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7275000 sample=3801
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7285000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7325000 sample=1616
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7365000 sample=252
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7415000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7425000 sample=1303
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7455000 sample=3522
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7455000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7475000 sample=713
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7485000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7535000 sample=2577
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7575000 sample=749
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7585000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7585000 sample=1919
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7645000 sample=664
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7685000 sample=1392
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7685000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7705000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7705000 sample=2763
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7725000 sample=3107
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7775000 sample=594
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7795000 sample=1964
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7815000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7825000 sample=619
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 7855000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7885000 sample=863
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7905000 sample=128
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 7955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=7955000 sample=3649
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8015000 sample=495
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8025000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8035000 sample=1622
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8085000 sample=1377
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8095000 sample=2580
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8125000 sample=677
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8155000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8155000 sample=4091
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8165000 sample=2607
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8195000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8225000 sample=3627
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8235000 sample=2632
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8285000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8295000 sample=2593
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8345000 sample=2761
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8355000 sample=3499
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8385000 sample=2506
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8405000 sample=2567
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8425000 sample=3693
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8425000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8465000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8465000 sample=2640
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8485000 sample=3976
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8515000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8535000 sample=780
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8535000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8575000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8595000 sample=2110
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8605000 sample=2175
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8645000 sample=4035
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8685000 sample=2277
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8715000 sample=343
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8735000 sample=2093
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8765000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8795000 sample=3743
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8825000 sample=2070
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8855000 sample=1748
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8865000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 1 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 8875000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8895000 sample=2541
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8945000 sample=233
+UVM_INFO ./tb/UVM_test/fft_buffer_random_overflow_test.svh(131) @ 8947000: uvm_test_top [RAND_OVF_STAGE] Send exactly 4 inputs while full
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8965000 sample=475
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 8965000: uvm_test_top.env.scoreboard [SB_DROP] time=8965000 sample=475 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(271) @ 8975000: uvm_test_top.env.core_agt.monitor [CORE_OVERFLOW] overflow=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 8995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=8995000 sample=3389
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 8995000: uvm_test_top.env.scoreboard [SB_DROP] time=8995000 sample=3389 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 9005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=9005000 sample=3842
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 9005000: uvm_test_top.env.scoreboard [SB_DROP] time=9005000 sample=3842 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 9035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=9035000 sample=1284
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(378) @ 9035000: uvm_test_top.env.scoreboard [SB_DROP] time=9035000 sample=1284 write_buffer=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9045000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 9055000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 9055000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9095000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9115000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9165000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 9175000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9175000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b4200000 data1=0x001c500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9195000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c1d00000 data1=0x0076000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9195000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 9205000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9215000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0010e00000 data1=0x006bf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9235000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000b100000 data1=0x0087000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9255000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0076400000 data1=0x0046600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9275000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bd600000 data1=0x00ae600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9295000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c4e00000 data1=0x004a200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9315000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041400000 data1=0x00d9100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9335000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00be700000 data1=0x00c8000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9355000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006a400000 data1=0x00e9f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9375000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d5d00000 data1=0x001bf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9375000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9395000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0092700000 data1=0x00fd100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9415000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0072100000 data1=0x006f000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9435000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ae600000 data1=0x00e4700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9455000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008cc00000 data1=0x0076b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 9475000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006c700000 data1=0x009a300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9485000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 9495000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9565000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9705000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 9715000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9865000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 9995000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 1 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10005000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0090700000 data1=0x001f000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10005000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10015000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c4200000 data1=0x0020c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0048f00000 data1=0x006f200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0040500000 data1=0x0026000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00e2700000 data1=0x00d4300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005e000000 data1=0x005f500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0060d00000 data1=0x008c200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0082c00000 data1=0x00d7800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0090f00000 data1=0x00f8900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0009400000 data1=0x00d6f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10185000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d8a00000 data1=0x005ca00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045500000 data1=0x001f300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0063200000 data1=0x0013b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x002a600000 data1=0x00eca00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000f000000 data1=0x005b200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10285000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0086500000 data1=0x00c5200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0095500000 data1=0x00a3b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f4200000 data1=0x0069900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10355000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00fa100000 data1=0x00dbe00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001ff00000 data1=0x00ff200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00dd000000 data1=0x0082600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003dd00000 data1=0x005b800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004ec00000 data1=0x0096900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00eba00000 data1=0x00a8000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006ca00000 data1=0x0056900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ede00000 data1=0x001e300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10515000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10525000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0029200000 data1=0x0069100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x002f500000 data1=0x0051700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001e000000 data1=0x0082400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005ad00000 data1=0x0091600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ea700000 data1=0x000bf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004d900000 data1=0x00f9300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ada00000 data1=0x0046b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ecd00000 data1=0x0018900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10675000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a4700000 data1=0x00b7100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10695000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 6 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ccc00000 data1=0x004a300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a2a00000 data1=0x00fab00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001b100000 data1=0x00e0c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10755000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00af600000 data1=0x0075800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031100000 data1=0x007e700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10785000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10795000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 10945000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 6 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 10955000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10955000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0005500000 data1=0x003a800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10975000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024f00000 data1=0x00bee00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 10995000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f4500000 data1=0x0093d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11005000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11015000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008d400000 data1=0x00abc00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11035000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001b800000 data1=0x001f500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11055000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006bc00000 data1=0x00ed400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11075000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003f300000 data1=0x009ae00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11095000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0069800000 data1=0x0047100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 11095000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=1 completed 64 pairs; total_pairs=64
+UVM_INFO ./tb/UVM_test/fft_buffer_random_overflow_test.svh(140) @ 11096000: uvm_test_top [RAND_OVF_STAGE] Buffer 0 released; send its random refill
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 11105000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11125000 sample=646
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0076f00000 data1=0x00b4a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11135000 sample=2826
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11135000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11145000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11195000 sample=596
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11215000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11215000 sample=1190
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11255000 sample=3111
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11265000 sample=3366
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11275000 sample=1395
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11275000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11285000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11295000 sample=773
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11345000 sample=3235
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11365000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11375000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11385000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11395000 sample=1767
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11405000 sample=2314
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11415000 sample=2134
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11425000 sample=3315
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11455000 sample=3350
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11475000 sample=1614
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11475000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11485000 sample=3511
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11515000 sample=194
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11525000 sample=697
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11555000 sample=134
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11575000 sample=1051
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11595000 sample=350
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11615000 sample=2478
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11625000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11645000 sample=2995
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11675000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11675000 sample=327
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11685000 sample=3922
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11725000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11735000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11735000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d0e00000 data1=0x00c6a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11745000 sample=1429
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11755000 sample=2231
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11755000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c9400000 data1=0x007cc00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11775000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d2400000 data1=0x005bb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11795000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008e300000 data1=0x00a0c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11805000 sample=993
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11805000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11815000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11815000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006ce00000 data1=0x0029f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11825000 sample=2296
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11835000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0046600000 data1=0x00ac200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11855000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bd900000 data1=0x0090800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11875000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0014700000 data1=0x0076700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11885000 sample=4091
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11895000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0060b00000 data1=0x00d3800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11915000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0016200000 data1=0x00a0100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11935000 sample=799
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11935000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0086b00000 data1=0x0088d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11955000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00aec00000 data1=0x00f5c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11965000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11975000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11985000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 1 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 11995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=11995000 sample=2712
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 11995000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 11995000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a0a00000 data1=0x0038000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 11995000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 12005000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12015000 sample=1744
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12035000 sample=2552
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12045000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12065000 sample=1921
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12125000 sample=2034
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12135000 sample=3978
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12165000 sample=1312
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12175000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12185000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12185000 sample=2665
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 12185000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12195000 sample=2342
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12255000 sample=2677
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12285000 sample=2888
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12315000 sample=2562
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12375000 sample=442
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12375000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12405000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12405000 sample=2816
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12455000 sample=2752
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12515000 sample=2831
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12525000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12565000 sample=999
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12595000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12595000 sample=2172
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12595000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12615000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12625000 sample=3220
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 12625000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12645000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12645000 sample=1527
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12645000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 12655000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12655000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0056b00000 data1=0x0067d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12675000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c8500000 data1=0x0024400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12685000 sample=594
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12695000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0067a00000 data1=0x00ddd00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 12715000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ee400000 data1=0x00f2500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12715000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 12725000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12745000 sample=1049
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12785000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12805000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12805000 sample=3035
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12855000 sample=3629
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12895000 sample=2411
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 12925000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 12935000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 12945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=12945000 sample=1345
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13005000 sample=1842
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13005000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 13015000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13025000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13025000 sample=1147
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13055000 sample=16
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13065000 sample=1509
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13115000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13125000 sample=796
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13165000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13165000 sample=3431
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13175000 sample=3565
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13225000 sample=2649
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13245000 sample=950
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13275000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13275000 sample=3536
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13285000 sample=1533
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13295000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 13305000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008b200000 data1=0x00bf800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13315000 sample=3834
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0091200000 data1=0x000ff00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004a100000 data1=0x001cf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0032100000 data1=0x0042f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13375000 sample=2844
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f3400000 data1=0x0076600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0014500000 data1=0x00f7500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13425000 sample=3826
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bd900000 data1=0x0099100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f1500000 data1=0x0042900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13455000 sample=848
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0067400000 data1=0x0081f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13475000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c6200000 data1=0x0017700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13495000 sample=1928
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004900000 data1=0x006d400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13525000 sample=3560
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001e500000 data1=0x00f5400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c900000 data1=0x0067600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00af100000 data1=0x0070900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13575000 sample=2285
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003800000 data1=0x0080b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13605000 sample=1797
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x009b500000 data1=0x00a3900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bca00000 data1=0x008b700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13625000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b4f00000 data1=0x004f500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13655000 sample=450
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x002df00000 data1=0x0000b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0096400000 data1=0x00a1500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0039500000 data1=0x00ebb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13715000 sample=3759
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bb200000 data1=0x0065100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13725000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13735000 sample=1041
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 13735000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13775000 sample=3481
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13785000 sample=3534
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13815000 sample=4036
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13845000 sample=949
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13865000 sample=60
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13865000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 13875000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13915000 sample=577
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 13915000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 13925000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ed900000 data1=0x0065000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 13945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=13945000 sample=3675
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000fc00000 data1=0x0051700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00dc200000 data1=0x002c900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 13985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a1100000 data1=0x002ed00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14005000 sample=3785
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0077f00000 data1=0x0029800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0057000000 data1=0x00acb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14045000 sample=1193
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c2300000 data1=0x0025200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x007ac00000 data1=0x0026b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14065000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 14075000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14085000 sample=983
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14105000 sample=105
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14115000 sample=3949
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14135000 sample=3418
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14195000 sample=2752
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14235000 sample=801
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14235000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14265000 sample=2384
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14325000 sample=873
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14345000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14385000 sample=1599
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14435000 sample=2439
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14495000 sample=881
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14495000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14545000 sample=600
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14575000 sample=2110
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14625000 sample=1184
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14635000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 1 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 14645000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0035f00000 data1=0x0008000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14645000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 14655000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14665000 sample=3721
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14725000 sample=3640
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14745000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14745000 sample=994
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14795000 sample=2818
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14805000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14825000 sample=451
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14855000 sample=1967
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14855000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 14865000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00e4100000 data1=0x001ef00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14875000 sample=215
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0065600000 data1=0x0056100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14905000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14905000 sample=1303
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a1400000 data1=0x002a500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 14925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ffb00000 data1=0x00a2f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14935000 sample=2312
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 14935000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 14945000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 14995000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=14995000 sample=3413
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15005000 sample=3891
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15015000 sample=2324
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15035000 sample=3807
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15085000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15085000 sample=470
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15095000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15105000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00e2b00000 data1=0x00a4800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15115000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15115000 sample=2883
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a2100000 data1=0x00ac900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00dab00000 data1=0x009ca00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a0700000 data1=0x00e6d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15165000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15175000 sample=3898
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15175000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15195000 sample=3076
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15235000 sample=1307
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15245000 sample=2064
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15305000 sample=2071
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15315000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15325000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15325000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a5000000 data1=0x00f8800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15345000 sample=3262
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15345000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0030c00000 data1=0x0083e00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15365000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0087f00000 data1=0x00fc300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15375000 sample=1591
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15385000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008e500000 data1=0x0015700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15405000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0082d00000 data1=0x00e9f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15425000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0081600000 data1=0x006d400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15435000 sample=1511
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15435000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15445000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15465000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 6 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15475000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15475000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x009ed00000 data1=0x000e900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 15475000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=2 completed 64 pairs; total_pairs=128
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15485000 sample=2471
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15505000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15505000 sample=994
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15525000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15535000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15555000 sample=1996
+UVM_INFO ./tb/UVM_test/fft_buffer_random_overflow_test.svh(149) @ 15557000: uvm_test_top [RAND_OVF_STAGE] Buffer 1 released; send its random refill
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 15565000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15575000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15585000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15605000 sample=2064
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15645000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15655000 sample=2236
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15695000 sample=3102
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15715000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15725000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0028600000 data1=0x00b0a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025400000 data1=0x004a600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15755000 sample=257
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c2700000 data1=0x00d2600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15785000 sample=3374
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0057300000 data1=0x0030500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15795000 sample=2744
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ca300000 data1=0x006e700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15805000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 11 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0090a00000 data1=0x0085600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00cf300000 data1=0x00d1600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15855000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15855000 sample=3997
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0064e00000 data1=0x00db700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c200000 data1=0x002b900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15895000 sample=1507
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008600000 data1=0x0041b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15915000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15925000 sample=1525
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0015e00000 data1=0x009ae00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 15945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bb300000 data1=0x0014700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 15955000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 15965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=15965000 sample=3812
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 15965000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16005000 sample=2893
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16045000 sample=1324
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16075000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16075000 sample=1700
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16075000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 16085000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16095000 sample=1461
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16125000 sample=1705
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16175000 sample=2101
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16195000 sample=383
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16235000 sample=176
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16265000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16265000 sample=2510
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16265000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 16275000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16275000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f5200000 data1=0x0059500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16295000 sample=1829
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16295000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008b700000 data1=0x003e100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16295000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 16305000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16345000 sample=342
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16365000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16365000 sample=2786
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16415000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16415000 sample=1819
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16435000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16435000 sample=1634
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16465000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 5 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 16475000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16495000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16495000 sample=2130
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16515000 sample=2343
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16515000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 6 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16525000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16525000 sample=1410
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 16525000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008f800000 data1=0x00ffb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16535000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16535000 sample=935
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0031f00000 data1=0x00a9800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16565000 sample=3880
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006d000000 data1=0x009f800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16575000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0078100000 data1=0x007f200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f8a00000 data1=0x0052000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16615000 sample=3107
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a6900000 data1=0x0092600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a7500000 data1=0x00b4800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16665000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16665000 sample=3075
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a0200000 data1=0x001ba00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b0000000 data1=0x00ac000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b0f00000 data1=0x003e700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16715000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16715000 sample=2912
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0087c00000 data1=0x00c9400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16735000 sample=2688
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16745000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005f700000 data1=0x0025200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16755000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16765000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16765000 sample=2668
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 16765000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16765000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041900000 data1=0x00bdb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16775000 sample=3204
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16785000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00e2d00000 data1=0x0096b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16805000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0054100000 data1=0x0073200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16825000 sample=3530
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16825000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0047b00000 data1=0x0001000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16835000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16835000 sample=2933
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16845000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005e500000 data1=0x0031c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16865000 sample=1776
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16865000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d6700000 data1=0x00ded00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16885000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a5900000 data1=0x003b600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16905000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00dd000000 data1=0x005fd00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16915000 sample=3932
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16925000 sample=3817
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16925000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00efa00000 data1=0x00b1c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 16935000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 15 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16945000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ef200000 data1=0x0035000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 16965000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=16965000 sample=20
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16965000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0078800000 data1=0x00de800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 16985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x008ed00000 data1=0x0070500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17005000 sample=1163
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001c200000 data1=0x00eaf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0041100000 data1=0x00d9900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17035000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17035000 sample=469
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00dce00000 data1=0x00fc400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17055000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17055000 sample=852
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003b500000 data1=0x0003c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0024100000 data1=0x00e5b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17085000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17095000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17095000 sample=3834
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 17095000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ec900000 data1=0x004a900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003d700000 data1=0x0006900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17135000 sample=341
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f6d00000 data1=0x00d5a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17165000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00ac000000 data1=0x0032100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17175000 sample=2415
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17185000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0095000000 data1=0x0036900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17205000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0063f00000 data1=0x0098700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17205000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17225000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17225000 sample=1916
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17225000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0037100000 data1=0x0025800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17245000 sample=1116
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17245000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0083e00000 data1=0x004a000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17255000 sample=686
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17265000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00e8900000 data1=0x00e3800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17285000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003e200000 data1=0x00b0200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17305000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001c300000 data1=0x007af00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17305000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17315000 sample=194
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 17315000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17325000 sample=2037
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17375000 sample=3441
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17395000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17395000 sample=1370
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17455000 sample=3388
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17475000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17475000 sample=2050
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17485000 sample=972
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17495000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17525000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 17535000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17535000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000d700000 data1=0x0051700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17545000 sample=1238
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17555000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0090800000 data1=0x00d5500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17575000 sample=1215
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17575000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f3300000 data1=0x0091400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17595000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00edf00000 data1=0x001d600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17615000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17615000 sample=679
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17615000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b4300000 data1=0x00f3a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17635000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c0400000 data1=0x0051b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17655000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17655000 sample=193
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17655000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0081000000 data1=0x0081700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17675000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00cbe00000 data1=0x0063700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17685000 sample=3345
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17685000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 18 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17695000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005e700000 data1=0x009a700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 17715000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003e200000 data1=0x007cc00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 17715000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=3 completed 64 pairs; total_pairs=192
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17725000 sample=3567
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17735000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17735000 sample=2200
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17775000 sample=64
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17815000 sample=1561
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17825000 sample=3754
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17865000 sample=2785
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17865000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 17875000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17895000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17895000 sample=2659
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17935000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17935000 sample=3701
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 17965000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17975000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17975000 sample=2570
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 17975000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 17985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=17985000 sample=1122
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18045000 sample=1643
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18045000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18065000 sample=2163
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18105000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18105000 sample=1385
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18135000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18135000 sample=3275
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18175000 sample=708
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18195000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18195000 sample=2125
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18215000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 18225000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18255000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18255000 sample=254
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18295000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18295000 sample=1370
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18305000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18315000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18315000 sample=224
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 18315000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18325000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18325000 sample=1506
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18355000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18355000 sample=1554
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18375000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18375000 sample=3887
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18425000 sample=3023
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18455000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18455000 sample=719
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18475000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 18485000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18515000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18515000 sample=2474
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18565000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18565000 sample=263
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18605000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18605000 sample=828
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18625000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18625000 sample=3828
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18635000 sample=44
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18665000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 4 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 18675000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18685000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18685000 sample=1728
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18705000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 18715000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18725000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18725000 sample=602
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18785000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18785000 sample=2310
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18825000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18825000 sample=2044
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18845000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18845000 sample=2333
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18865000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18865000 sample=1219
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18875000 sample=3807
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18885000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18885000 sample=52
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 18905000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 18915000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18945000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18945000 sample=2063
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 18955000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=18955000 sample=3581
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19005000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19005000 sample=366
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19015000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19015000 sample=3044
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19065000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19065000 sample=1678
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19095000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19125000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19125000 sample=1812
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19175000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19175000 sample=787
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19235000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19235000 sample=2487
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19245000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19245000 sample=1825
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19265000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 19275000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19285000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19285000 sample=306
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19305000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19305000 sample=702
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19345000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19345000 sample=2035
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19385000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19385000 sample=586
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19385000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 12 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 19395000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19425000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19425000 sample=195
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19485000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19485000 sample=3369
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19505000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 19515000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19545000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19545000 sample=1194
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19555000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19555000 sample=2892
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19575000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19575000 sample=1504
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19635000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19635000 sample=3761
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19695000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19695000 sample=1979
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19695000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 19705000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19755000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19755000 sample=544
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19775000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19775000 sample=2579
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19785000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19795000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19795000 sample=2980
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 19795000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19815000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19815000 sample=1232
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19875000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19875000 sample=549
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19915000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19915000 sample=2963
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19925000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19925000 sample=1408
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 19945000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 7 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 19955000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 19985000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=19985000 sample=129
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20015000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20025000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/adc_agent/adc_monitor.svh(88) @ 20045000: uvm_test_top.env.adc_agt.monitor [ADC_MON] time=20045000 sample=872
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20205000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20285000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 13 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20295000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20415000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 2 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20425000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(290) @ 20425000: uvm_test_top.env.core_agt.monitor [CORE_FRAME] Frame handshake observed
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20435000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20445000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0081000000 data1=0x008bc00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c1e00000 data1=0x0010100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d2e00000 data1=0x00ab800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f9d00000 data1=0x005e300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20525000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005f500000 data1=0x00ee400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20545000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b4d00000 data1=0x0052c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20565000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006a400000 data1=0x005b500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20575000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20585000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20585000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x006a900000 data1=0x0083500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20605000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0017f00000 data1=0x000b000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20625000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x009ce00000 data1=0x0072500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20645000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0015600000 data1=0x00ae200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20665000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0071b00000 data1=0x0066200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20685000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0085200000 data1=0x0092700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20705000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0058200000 data1=0x003a700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20725000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f2800000 data1=0x00c2300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20735000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20745000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 20905000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 20915000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20915000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c0300000 data1=0x00b6000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20935000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a8000000 data1=0x00a6c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20955000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00c8400000 data1=0x00dca00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20975000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b7500000 data1=0x006f000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 20995000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00f5c00000 data1=0x00ee900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21015000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0001400000 data1=0x0048b00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21035000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x001d500000 data1=0x0035400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21045000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 16 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21055000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00efa00000 data1=0x0015500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21075000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0096f00000 data1=0x0077c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21095000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0045c00000 data1=0x002ae00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21115000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c200000 data1=0x007f500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21135000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d7100000 data1=0x0055a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21155000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00d3c00000 data1=0x0080200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21175000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x003cc00000 data1=0x004d600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21195000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004bf00000 data1=0x002a700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21205000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21215000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c100000 data1=0x00d1100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21235000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00def00000 data1=0x0089800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21255000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0004000000 data1=0x0061900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21275000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00eaa00000 data1=0x00ae100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21295000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a6300000 data1=0x00e7500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21315000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a0a00000 data1=0x0046200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21335000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0066b00000 data1=0x0087300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21355000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0056900000 data1=0x00ccb00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21375000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x002c400000 data1=0x0084d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21395000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000fe00000 data1=0x0055a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21395000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=1 for 19 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21415000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000e000000 data1=0x005e200000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21435000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0061200000 data1=0x00f2f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21455000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00bcf00000 data1=0x002cf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21475000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x009aa00000 data1=0x0010700000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21495000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0033c00000 data1=0x00ef400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21515000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0002c00000 data1=0x006c000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21535000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0025a00000 data1=0x0090600000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21555000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x007fc00000 data1=0x0091d00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21575000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004c300000 data1=0x00edf00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21585000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 21595000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21595000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0003400000 data1=0x0080f00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21615000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00dfd00000 data1=0x0016e00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21615000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 3 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 21625000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21645000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21735000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 14 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 21745000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21875000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 10 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 21885000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 21975000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 17 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 21985000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 21985000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00be400000 data1=0x0068e00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22005000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0071400000 data1=0x0031300000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22025000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x009b700000 data1=0x0072100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22045000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0013200000 data1=0x002be00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22065000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x007f300000 data1=0x0024a00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22085000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x000c300000 data1=0x00d2900000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22105000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004aa00000 data1=0x00b4c00000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22125000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x005e000000 data1=0x00eb100000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22145000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x007bb00000 data1=0x0022000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 22145000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=1 data_ready=0 for 20 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 22155000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=1 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 22345000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=0 for 9 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 22355000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_driver.svh(90) @ 22435000: uvm_test_top.env.core_agt.driver [CORE_DRV] Drive frame_ready=0 data_ready=1 for 8 cycles
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 22445000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22445000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00a1300000 data1=0x00ba400000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22465000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x004d000000 data1=0x0022500000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22485000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x00b9300000 data1=0x0058000000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(312) @ 22505000: uvm_test_top.env.core_agt.monitor [CORE_PAIR] data0=0x0008100000 data1=0x0036800000
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(499) @ 22505000: uvm_test_top.env.scoreboard [SB_FRAME_DONE] frame=4 completed 64 pairs; total_pairs=256
+UVM_INFO ./tb/UVM_test/fft_buffer_random_overflow_test.svh(154) @ 22506000: uvm_test_top [RAND_OVF_STAGE] All four frames have drained
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(256) @ 22525000: uvm_test_top.env.core_agt.monitor [CORE_READY] frame_ready=0 data_ready=0
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP2/etc/uvm/base/uvm_objection.svh(1274) @ 22535000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(335) @ 22535000: uvm_test_top.env.core_agt.monitor [CORE_HOLD_SUMMARY] checks=552 errors=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/core_agent/core_monitor.svh(345) @ 22535000: uvm_test_top.env.core_agt.monitor [FRAME_WAIT_SUMMARY] wait_cycles=494 hold_checks=494 errors=0
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(230) @ 22535000: uvm_test_top.env.coverage [STIM_COV_SUMMARY] inputs=516 data_ranges=398/1024 gap_bins=7/7 ready_bins=4/4 gap_ready=24/24
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(233) @ 22535000: uvm_test_top.env.coverage [STIM_COV_SCORE] data=38.87% gap=100.00% ready=100.00% gap_ready=100.00%
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap=0 hits=84
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap=1 hits=96
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap=2 hits=86
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap=3 hits=80
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap=4 hits=78
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(242) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap=5 hits=90
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(244) @ 22535000: uvm_test_top.env.coverage [STIM_GAP] gap>=6 hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 22535000: uvm_test_top.env.coverage [STIM_READY] ready=00 hits=56
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 22535000: uvm_test_top.env.coverage [STIM_READY] ready=01 hits=309
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 22535000: uvm_test_top.env.coverage [STIM_READY] ready=10 hits=99
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(247) @ 22535000: uvm_test_top.env.coverage [STIM_READY] ready=11 hits=52
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=00 hits=7
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=01 hits=50
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=10 hits=19
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=0 ready=11 hits=8
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=00 hits=12
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=01 hits=58
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=10 hits=19
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=1 ready=11 hits=7
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=00 hits=6
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=01 hits=51
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=10 hits=18
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=2 ready=11 hits=11
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=00 hits=7
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=01 hits=50
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=10 hits=12
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=3 ready=11 hits=11
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=00 hits=11
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=01 hits=46
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=10 hits=13
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=4 ready=11 hits=8
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=00 hits=13
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=01 hits=53
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=10 hits=18
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(250) @ 22535000: uvm_test_top.env.coverage [STIM_CROSS] gap=5 ready=11 hits=6
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(279) @ 22535000: uvm_test_top.env.coverage [COV_SUMMARY] buffer coverage=100.00% (7 bins, scoreboard-model events)
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] accepted_and_output hits=29
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] buffer_0_filled hits=2
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] buffer_1_filled hits=2
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] buffer_0_reused hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] buffer_1_reused hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] input_dropped_full hits=4
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh(283) @ 22535000: uvm_test_top.env.coverage [COV_BIN] collection_resumed hits=1
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(613) @ 22535000: uvm_test_top.env.scoreboard [SB_SUMMARY] adc=516 frames=4 pairs=256 matches=256 pending=0 accepted=512 dropped=4 accepted_after_overflow=256
+UVM_INFO ./tb/UVM_test/fft_buffer_env/fft_buffer_scoreboard.svh(630) @ 22535000: uvm_test_top.env.scoreboard [SB_RESET_SUMMARY] idle_resets=0 expected=0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO : 1136
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[ADC_MON]   516
+[CORE_DRV]   209
+[CORE_FRAME]     4
+[CORE_HOLD_SUMMARY]     1
+[CORE_OVERFLOW]     2
+[CORE_PAIR]   256
+[CORE_READY]    83
+[COV_BIN]     7
+[COV_SUMMARY]     1
+[FRAME_WAIT_SUMMARY]     1
+[RANDOM_SCOPE]     1
+[RAND_OVF_STAGE]     5
+[RNTST]     1
+[SB_CONFIG]     1
+[SB_DROP]     4
+[SB_FRAME_DONE]     4
+[SB_RESET_SUMMARY]     1
+[SB_SUMMARY]     1
+[STIM_COV_SCORE]     1
+[STIM_COV_SUMMARY]     1
+[STIM_CROSS]    24
+[STIM_GAP]     7
+[STIM_READY]     4
+[TEST_DONE]     1
+$finish called from file "/tools/synopsys/vcs/W-2024.09-SP2/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time             22535000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 22535000 ps
+CPU Time:      0.270 seconds;       Data structure size:   0.6Mb
+Tue Oct  6 22:14:08 2026

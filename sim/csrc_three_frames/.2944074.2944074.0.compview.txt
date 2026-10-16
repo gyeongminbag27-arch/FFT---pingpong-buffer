@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1790752411.736748402, "rt":2.64, "ut":2.49, "st":0.12}}
+{"vcselab":{"timestamp_begin":1790752414.426757971, "rt":0.16, "ut":0.12, "st":0.03}}
+{"link":{"timestamp_begin":1790752414.625459429, "rt":0.14, "ut":0.09, "st":0.04}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1790752411.483433348}
+{"VCS_COMP_START_TIME": 1790752411.483433348}
+{"VCS_COMP_END_TIME": 1790752414.805644508}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm -timescale=1ns/1ps +incdir+../tb/UVM_test/fft_buffer_env/adc_agent +incdir+../tb/UVM_test/fft_buffer_env/core_agent +incdir+../tb/UVM_test/fft_buffer_env +incdir+../tb/UVM_test ../rtl/fft_buffer.v ../tb/fft_buffer_if.sv ../tb/fft_buffer_pkg.sv ../tb/tb_top.sv -top tb_top -Mdir=csrc_three_frames -o simv_three_frames -l compile_snapshot.log"}
+{"vcs1": {"peak_mem": 352248}}
+{"vcselab": {"peak_mem": 174692}}

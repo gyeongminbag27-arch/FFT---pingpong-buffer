@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1790742552.100770131, "rt":3.00, "ut":2.85, "st":0.11}}
+{"vcselab":{"timestamp_begin":1790742555.147812481, "rt":0.16, "ut":0.12, "st":0.03}}
+{"link":{"timestamp_begin":1790742555.348592732, "rt":0.14, "ut":0.09, "st":0.05}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1790742551.843412609}
+{"VCS_COMP_START_TIME": 1790742551.843412609}
+{"VCS_COMP_END_TIME": 1790742555.531607601}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm -timescale=1ns/1ps +incdir+../tb/UVM_test/fft_buffer_env/adc_agent +incdir+../tb/UVM_test/fft_buffer_env/core_agent +incdir+../tb/UVM_test/fft_buffer_env +incdir+../tb/UVM_test ../rtl/fft_buffer.v ../tb/fft_buffer_if.sv ../tb/fft_buffer_pkg.sv ../tb/tb_top.sv -top tb_top -Mdir=csrc_coremon_check -o simv_coremon_check -l compile_coremon_check.log"}
+{"vcs1": {"peak_mem": 355272}}
+{"vcselab": {"peak_mem": 174692}}

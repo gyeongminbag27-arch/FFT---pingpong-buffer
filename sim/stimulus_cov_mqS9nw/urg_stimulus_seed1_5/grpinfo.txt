@@ -1,0 +1,950 @@
+Group : fft_buffer_pkg::fft_buffer_coverage::stimulus_cg
+
+===============================================================================
+Group : fft_buffer_pkg::fft_buffer_coverage::stimulus_cg
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw/../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                      
+100.00 1      100    1        64           64            tb_top.me.obj.stimulus_cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   fft_buffer_pkg::fft_buffer_coverage::stimulus_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 267      0         267     100.00  
+Crosses   24       0         24      100.00  
+
+
+Variables for Group  fft_buffer_pkg::fft_buffer_coverage::stimulus_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_data  256      0         256     100.00  100  1      1        0                    
+cp_gap   7        0         7       100.00  100  1      1        0                    
+cp_ready 4        0         4       100.00  100  1      1        0                    
+
+
+Crosses for Group  fft_buffer_pkg::fft_buffer_coverage::stimulus_cg
+
+
+CROSS       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+gap_x_ready 24       0         24      100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_data
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 256      0         256     100.00  
+
+
+User Defined Bins for cp_data
+
+
+Bins
+
+NAME                 COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+value_range[000:00f] 9     1         T1   3      T2   1      T3   3     
+value_range[010:01f] 8     1         T2   3      T3   4      T4   1     
+value_range[020:02f] 6     1         T1   2      T2   1      T3   1     
+value_range[030:03f] 6     1         T1   2      T5   1      T3   1     
+value_range[040:04f] 9     1         T1   2      T2   1      T5   4     
+value_range[050:05f] 8     1         T2   3      T5   3      T3   2     
+value_range[060:06f] 11    1         T1   2      T5   3      T3   2     
+value_range[070:07f] 11    1         T1   2      T2   1      T5   5     
+value_range[080:08f] 13    1         T1   4      T2   3      T5   3     
+value_range[090:09f] 8     1         T1   4      T2   3      T5   1     
+value_range[0a0:0af] 8     1         T2   1      T5   5      T3   2     
+value_range[0b0:0bf] 11    1         T1   1      T2   5      T5   2     
+value_range[0c0:0cf] 6     1         T1   3      T2   1      T5   1     
+value_range[0d0:0df] 13    1         T5   3      T3   7      T4   3     
+value_range[0e0:0ef] 7     1         T1   1      T2   2      T5   3     
+value_range[0f0:0ff] 9     1         T2   1      T5   2      T3   2     
+value_range[100:10f] 9     1         T1   1      T5   2      T3   2     
+value_range[110:11f] 9     1         T1   1      T2   3      T5   1     
+value_range[120:12f] 8     1         T1   3      T5   2      T3   1     
+value_range[130:13f] 14    1         T1   1      T2   2      T5   4     
+value_range[140:14f] 6     1         T1   2      T2   2      T5   1     
+value_range[150:15f] 13    1         T1   1      T2   1      T5   3     
+value_range[160:16f] 11    1         T5   2      T3   4      T4   5     
+value_range[170:17f] 6     1         T1   1      T3   1      T4   4     
+value_range[180:18f] 9     1         T1   2      T2   3      T5   1     
+value_range[190:19f] 9     1         T1   2      T2   4      T3   2     
+value_range[1a0:1af] 16    1         T1   2      T2   8      T5   3     
+value_range[1b0:1bf] 9     1         T1   1      T2   1      T5   2     
+value_range[1c0:1cf] 14    1         T1   3      T2   1      T5   1     
+value_range[1d0:1df] 12    1         T2   3      T5   7      T3   1     
+value_range[1e0:1ef] 17    1         T1   6      T2   3      T5   1     
+value_range[1f0:1ff] 9     1         T1   2      T5   1      T3   4     
+value_range[200:20f] 13    1         T1   2      T2   2      T5   3     
+value_range[210:21f] 7     1         T1   2      T2   2      T5   2     
+value_range[220:22f] 7     1         T1   2      T2   1      T5   1     
+value_range[230:23f] 8     1         T1   3      T2   1      T5   2     
+value_range[240:24f] 11    1         T1   2      T2   3      T5   3     
+value_range[250:25f] 17    1         T1   5      T2   3      T5   2     
+value_range[260:26f] 10    1         T1   1      T2   1      T5   5     
+value_range[270:27f] 10    1         T1   3      T2   1      T5   2     
+value_range[280:28f] 5     1         T2   3      T5   1      T3   1     
+value_range[290:29f] 4     1         T3   3      T4   1      -    -     
+value_range[2a0:2af] 9     1         T2   4      T5   3      T3   1     
+value_range[2b0:2bf] 8     1         T1   2      T2   1      T5   1     
+value_range[2c0:2cf] 13    1         T1   2      T2   3      T5   2     
+value_range[2d0:2df] 13    1         T1   4      T2   4      T5   1     
+value_range[2e0:2ef] 6     1         T1   1      T5   4      T3   1     
+value_range[2f0:2ff] 9     1         T1   1      T2   1      T5   3     
+value_range[300:30f] 12    1         T2   4      T5   4      T3   2     
+value_range[310:31f] 14    1         T1   3      T2   2      T5   2     
+value_range[320:32f] 10    1         T1   1      T2   2      T5   2     
+value_range[330:33f] 14    1         T1   6      T2   1      T5   4     
+value_range[340:34f] 9     1         T1   1      T2   2      T5   3     
+value_range[350:35f] 8     1         T1   3      T2   1      T5   1     
+value_range[360:36f] 11    1         T1   2      T2   1      T5   4     
+value_range[370:37f] 5     1         T2   1      T5   1      T3   3     
+value_range[380:38f] 8     1         T1   2      T2   2      T3   1     
+value_range[390:39f] 6     1         T2   1      T5   3      T4   2     
+value_range[3a0:3af] 12    1         T1   2      T2   1      T5   4     
+value_range[3b0:3bf] 10    1         T1   2      T2   1      T5   4     
+value_range[3c0:3cf] 4     1         T1   2      T2   1      T3   1     
+value_range[3d0:3df] 12    1         T1   2      T2   4      T5   1     
+value_range[3e0:3ef] 6     1         T1   2      T2   2      T3   1     
+value_range[3f0:3ff] 8     1         T1   1      T5   5      T3   2     
+value_range[400:40f] 10    1         T1   2      T2   3      T5   1     
+value_range[410:41f] 9     1         T1   3      T2   1      T5   3     
+value_range[420:42f] 9     1         T1   1      T2   2      T5   2     
+value_range[430:43f] 9     1         T1   2      T2   3      T5   1     
+value_range[440:44f] 5     1         T1   1      T2   1      T5   1     
+value_range[450:45f] 10    1         T2   1      T5   5      T3   1     
+value_range[460:46f] 17    1         T2   4      T5   5      T3   6     
+value_range[470:47f] 15    1         T1   4      T2   4      T3   3     
+value_range[480:48f] 9     1         T1   1      T2   1      T3   4     
+value_range[490:49f] 8     1         T1   1      T2   3      T5   3     
+value_range[4a0:4af] 10    1         T2   4      T5   2      T3   3     
+value_range[4b0:4bf] 14    1         T1   3      T2   6      T5   1     
+value_range[4c0:4cf] 5     1         T2   2      T3   2      T4   1     
+value_range[4d0:4df] 15    1         T1   2      T2   3      T5   4     
+value_range[4e0:4ef] 10    1         T1   2      T5   3      T3   3     
+value_range[4f0:4ff] 6     1         T2   1      T5   3      T3   2     
+value_range[500:50f] 15    1         T1   4      T2   2      T5   1     
+value_range[510:51f] 11    1         T1   2      T5   3      T3   2     
+value_range[520:52f] 15    1         T1   4      T2   5      T3   4     
+value_range[530:53f] 6     1         T1   1      T2   2      T5   1     
+value_range[540:54f] 7     1         T1   1      T2   2      T3   2     
+value_range[550:55f] 9     1         T1   1      T2   1      T3   5     
+value_range[560:56f] 9     1         T1   2      T2   1      T5   2     
+value_range[570:57f] 9     1         T1   1      T2   4      T5   1     
+value_range[580:58f] 10    1         T1   2      T2   2      T5   1     
+value_range[590:59f] 9     1         T1   3      T3   3      T4   3     
+value_range[5a0:5af] 9     1         T2   3      T5   2      T3   1     
+value_range[5b0:5bf] 8     1         T1   2      T2   1      T5   1     
+value_range[5c0:5cf] 7     1         T2   5      T3   1      T4   1     
+value_range[5d0:5df] 11    1         T2   3      T5   3      T3   4     
+value_range[5e0:5ef] 12    1         T1   3      T2   4      T3   1     
+value_range[5f0:5ff] 8     1         T1   1      T2   2      T5   3     
+value_range[600:60f] 10    1         T2   2      T5   4      T3   3     
+value_range[610:61f] 12    1         T1   2      T2   1      T5   3     
+value_range[620:62f] 9     1         T1   2      T2   1      T5   3     
+value_range[630:63f] 11    1         T1   4      T2   2      T5   1     
+value_range[640:64f] 10    1         T1   1      T2   1      T5   3     
+value_range[650:65f] 8     1         T1   3      T2   1      T5   1     
+value_range[660:66f] 8     1         T1   2      T2   4      T5   1     
+value_range[670:67f] 12    1         T1   1      T2   5      T5   1     
+value_range[680:68f] 12    1         T1   2      T2   1      T5   3     
+value_range[690:69f] 12    1         T1   5      T2   5      T5   1     
+value_range[6a0:6af] 11    1         T1   2      T2   2      T5   4     
+value_range[6b0:6bf] 14    1         T1   5      T2   5      T5   3     
+value_range[6c0:6cf] 12    1         T2   3      T5   4      T3   2     
+value_range[6d0:6df] 14    1         T1   3      T2   2      T5   4     
+value_range[6e0:6ef] 7     1         T1   2      T2   2      T5   2     
+value_range[6f0:6ff] 13    1         T1   6      T2   1      T3   4     
+value_range[700:70f] 8     1         T1   3      T2   1      T5   1     
+value_range[710:71f] 13    1         T1   3      T2   4      T5   4     
+value_range[720:72f] 10    1         T1   1      T2   3      T5   4     
+value_range[730:73f] 6     1         T2   2      T5   2      T3   2     
+value_range[740:74f] 7     1         T1   2      T2   3      T4   2     
+value_range[750:75f] 9     1         T1   1      T2   1      T5   3     
+value_range[760:76f] 6     1         T1   2      T2   1      T5   2     
+value_range[770:77f] 11    1         T1   1      T2   2      T5   3     
+value_range[780:78f] 11    1         T1   4      T2   1      T5   3     
+value_range[790:79f] 13    1         T1   4      T2   1      T5   2     
+value_range[7a0:7af] 11    1         T1   2      T2   2      T5   2     
+value_range[7b0:7bf] 20    1         T1   3      T2   4      T5   4     
+value_range[7c0:7cf] 7     1         T1   3      T2   1      T3   1     
+value_range[7d0:7df] 4     1         T2   1      T5   1      T3   1     
+value_range[7e0:7ef] 4     1         T1   2      T2   1      T3   1     
+value_range[7f0:7ff] 16    1         T1   7      T5   3      T3   2     
+value_range[800:80f] 11    1         T1   2      T2   3      T5   1     
+value_range[810:81f] 6     1         T1   3      T2   1      T5   1     
+value_range[820:82f] 8     1         T1   1      T2   2      T3   3     
+value_range[830:83f] 10    1         T1   1      T2   4      T5   2     
+value_range[840:84f] 14    1         T1   5      T2   1      T5   3     
+value_range[850:85f] 13    1         T1   4      T2   2      T5   1     
+value_range[860:86f] 5     1         T1   1      T2   1      T5   1     
+value_range[870:87f] 10    1         T1   1      T2   3      T5   2     
+value_range[880:88f] 8     1         T1   1      T2   4      T3   1     
+value_range[890:89f] 9     1         T1   3      T2   1      T5   2     
+value_range[8a0:8af] 8     1         T1   1      T2   2      T5   3     
+value_range[8b0:8bf] 11    1         T1   5      T5   3      T3   2     
+value_range[8c0:8cf] 7     1         T2   2      T5   2      T4   3     
+value_range[8d0:8df] 10    1         T1   4      T2   2      T5   2     
+value_range[8e0:8ef] 14    1         T1   1      T2   5      T5   3     
+value_range[8f0:8ff] 11    1         T1   4      T2   3      T5   1     
+value_range[900:90f] 19    1         T1   2      T2   4      T5   3     
+value_range[910:91f] 9     1         T1   1      T2   1      T5   4     
+value_range[920:92f] 6     1         T2   2      T5   2      T4   2     
+value_range[930:93f] 8     1         T1   2      T2   2      T5   2     
+value_range[940:94f] 12    1         T2   5      T5   1      T3   4     
+value_range[950:95f] 6     1         T1   4      T2   1      T5   1     
+value_range[960:96f] 11    1         T1   2      T2   3      T3   3     
+value_range[970:97f] 8     1         T1   3      T2   1      T5   2     
+value_range[980:98f] 13    1         T1   2      T2   4      T5   3     
+value_range[990:99f] 11    1         T1   2      T2   2      T5   4     
+value_range[9a0:9af] 11    1         T1   2      T5   4      T3   2     
+value_range[9b0:9bf] 8     1         T1   3      T5   1      T3   1     
+value_range[9c0:9cf] 11    1         T1   2      T2   2      T5   2     
+value_range[9d0:9df] 6     1         T1   1      T2   3      T5   1     
+value_range[9e0:9ef] 11    1         T1   1      T2   2      T5   2     
+value_range[9f0:9ff] 12    1         T1   2      T2   2      T5   3     
+value_range[a00:a0f] 5     1         T1   2      T2   1      T3   2     
+value_range[a10:a1f] 15    1         T1   3      T2   4      T5   3     
+value_range[a20:a2f] 9     1         T1   2      T2   1      T5   1     
+value_range[a30:a3f] 12    1         T1   2      T2   3      T3   3     
+value_range[a40:a4f] 5     1         T1   1      T2   3      T3   1     
+value_range[a50:a5f] 9     1         T1   3      T2   2      T5   1     
+value_range[a60:a6f] 13    1         T1   1      T2   4      T5   4     
+value_range[a70:a7f] 16    1         T1   3      T2   4      T5   5     
+value_range[a80:a8f] 11    1         T1   3      T2   1      T5   4     
+value_range[a90:a9f] 9     1         T1   1      T2   3      T5   1     
+value_range[aa0:aaf] 5     1         T1   1      T2   1      T5   1     
+value_range[ab0:abf] 7     1         T1   2      T5   2      T3   2     
+value_range[ac0:acf] 12    1         T1   2      T5   1      T3   3     
+value_range[ad0:adf] 9     1         T1   3      T2   1      T5   2     
+value_range[ae0:aef] 10    1         T1   1      T2   2      T5   3     
+value_range[af0:aff] 16    1         T1   3      T2   3      T5   1     
+value_range[b00:b0f] 10    1         T2   2      T5   3      T3   1     
+value_range[b10:b1f] 10    1         T1   2      T2   1      T5   3     
+value_range[b20:b2f] 6     1         T1   1      T2   1      T5   1     
+value_range[b30:b3f] 12    1         T1   3      T2   2      T5   2     
+value_range[b40:b4f] 10    1         T1   1      T2   1      T5   4     
+value_range[b50:b5f] 7     1         T1   2      T2   2      T3   2     
+value_range[b60:b6f] 11    1         T1   1      T2   1      T5   1     
+value_range[b70:b7f] 9     1         T1   2      T2   3      T3   2     
+value_range[b80:b8f] 11    1         T1   4      T2   2      T5   1     
+value_range[b90:b9f] 12    1         T1   2      T2   2      T5   3     
+value_range[ba0:baf] 13    1         T1   3      T2   2      T5   2     
+value_range[bb0:bbf] 9     1         T1   3      T2   1      T5   1     
+value_range[bc0:bcf] 13    1         T1   2      T2   6      T5   3     
+value_range[bd0:bdf] 9     1         T1   4      T2   1      T5   2     
+value_range[be0:bef] 16    1         T1   4      T2   3      T5   3     
+value_range[bf0:bff] 12    1         T1   5      T2   1      T5   4     
+value_range[c00:c0f] 8     1         T1   2      T2   2      T5   1     
+value_range[c10:c1f] 11    1         T1   4      T5   3      T3   2     
+value_range[c20:c2f] 12    1         T1   1      T2   6      T5   2     
+value_range[c30:c3f] 10    1         T1   4      T5   1      T3   2     
+value_range[c40:c4f] 4     1         T1   2      T3   1      T4   1     
+value_range[c50:c5f] 13    1         T1   3      T2   4      T5   2     
+value_range[c60:c6f] 8     1         T1   3      T2   1      T5   2     
+value_range[c70:c7f] 14    1         T1   5      T2   4      T5   1     
+value_range[c80:c8f] 8     1         T1   1      T2   3      T5   2     
+value_range[c90:c9f] 15    1         T1   3      T2   2      T5   2     
+value_range[ca0:caf] 9     1         T2   3      T5   3      T3   3     
+value_range[cb0:cbf] 13    1         T1   1      T2   3      T5   3     
+value_range[cc0:ccf] 12    1         T1   2      T2   1      T5   3     
+value_range[cd0:cdf] 9     1         T1   3      T5   1      T3   2     
+value_range[ce0:cef] 14    1         T1   4      T2   3      T5   2     
+value_range[cf0:cff] 19    1         T1   5      T2   1      T5   5     
+value_range[d00:d0f] 13    1         T1   2      T2   6      T5   2     
+value_range[d10:d1f] 16    1         T1   7      T2   2      T5   1     
+value_range[d20:d2f] 4     1         T2   1      T5   1      T3   2     
+value_range[d30:d3f] 16    1         T1   1      T2   6      T5   1     
+value_range[d40:d4f] 13    1         T1   1      T2   3      T5   3     
+value_range[d50:d5f] 12    1         T1   2      T2   3      T5   1     
+value_range[d60:d6f] 10    1         T1   1      T2   1      T5   6     
+value_range[d70:d7f] 7     1         T1   2      T2   1      T3   2     
+value_range[d80:d8f] 14    1         T1   3      T2   4      T5   2     
+value_range[d90:d9f] 7     1         T1   3      T5   1      T4   3     
+value_range[da0:daf] 15    1         T1   3      T2   1      T5   4     
+value_range[db0:dbf] 10    1         T1   1      T2   2      T5   4     
+value_range[dc0:dcf] 9     1         T1   1      T2   2      T5   3     
+value_range[dd0:ddf] 5     1         T1   1      T5   2      T3   2     
+value_range[de0:def] 9     1         T1   2      T5   4      T3   1     
+value_range[df0:dff] 10    1         T1   1      T2   4      T5   2     
+value_range[e00:e0f] 17    1         T1   2      T2   5      T5   3     
+value_range[e10:e1f] 14    1         T1   1      T2   3      T5   3     
+value_range[e20:e2f] 10    1         T1   1      T2   2      T5   2     
+value_range[e30:e3f] 9     1         T1   3      T2   1      T5   2     
+value_range[e40:e4f] 11    1         T1   1      T2   6      T5   1     
+value_range[e50:e5f] 15    1         T1   1      T2   4      T3   5     
+value_range[e60:e6f] 5     1         T1   1      T2   1      T4   3     
+value_range[e70:e7f] 6     1         T1   1      T2   1      T5   1     
+value_range[e80:e8f] 8     1         T1   2      T5   3      T3   1     
+value_range[e90:e9f] 7     1         T1   3      T5   1      T3   1     
+value_range[ea0:eaf] 10    1         T1   3      T2   1      T5   2     
+value_range[eb0:ebf] 14    1         T1   5      T2   4      T5   2     
+value_range[ec0:ecf] 9     1         T1   4      T2   1      T5   1     
+value_range[ed0:edf] 9     1         T1   2      T5   1      T3   2     
+value_range[ee0:eef] 5     1         T1   2      T5   2      T4   1     
+value_range[ef0:eff] 15    1         T1   2      T2   1      T5   4     
+value_range[f00:f0f] 9     1         T1   1      T2   1      T5   3     
+value_range[f10:f1f] 6     1         T1   4      T5   1      T3   1     
+value_range[f20:f2f] 12    1         T1   4      T2   3      T5   3     
+value_range[f30:f3f] 4     1         T1   1      T2   1      T5   1     
+value_range[f40:f4f] 10    1         T1   2      T2   3      T5   2     
+value_range[f50:f5f] 8     1         T5   3      T3   3      T4   2     
+value_range[f60:f6f] 13    1         T1   1      T2   3      T5   2     
+value_range[f70:f7f] 12    1         T1   2      T2   1      T5   2     
+value_range[f80:f8f] 14    1         T1   2      T2   2      T5   3     
+value_range[f90:f9f] 10    1         T1   2      T2   1      T5   3     
+value_range[fa0:faf] 8     1         T2   2      T5   1      T3   3     
+value_range[fb0:fbf] 10    1         T1   2      T2   2      T5   1     
+value_range[fc0:fcf] 9     1         T1   1      T2   1      T5   2     
+value_range[fd0:fdf] 10    1         T1   2      T2   3      T5   1     
+value_range[fe0:fef] 12    1         T1   4      T2   2      T3   3     
+value_range[ff0:fff] 10    1         T1   2      T2   3      T5   2     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_gap
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for cp_gap
+
+
+Bins
+
+NAME          COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+gap_6_or_more 8     1         T1   3      T2   1      T5   1     
+gap_cycles_0  382   1         T1   82     T2   68     T5   91    
+gap_cycles_1  418   1         T1   89     T2   89     T5   79    
+gap_cycles_2  446   1         T1   85     T2   80     T5   93    
+gap_cycles_3  449   1         T1   96     T2   87     T5   101   
+gap_cycles_4  426   1         T1   74     T2   93     T5   71    
+gap_cycles_5  446   1         T1   86     T2   97     T5   79    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_ready
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for cp_ready
+
+
+Bins
+
+NAME     COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+ready_11 384   1         T1   105    T2   77     T5   80    
+ready_10 297   1         T1   56     T2   60     T5   36    
+ready_01 1604  1         T1   299    T2   329    T5   339   
+ready_00 295   1         T1   56     T2   50     T5   61    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross gap_x_ready
+
+
+Samples crossed: cp_gap cp_ready
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+TOTAL                              24       0         24      100.00          
+Automatically Generated Cross Bins 24       0         24      100.00          
+User Defined Cross Bins            0        0         0                       
+
+
+Automatically Generated Cross Bins for gap_x_ready
+
+
+Bins
+
+cp_gap       cp_ready COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+gap_cycles_0 ready_11 74    1         T1   26     T2   12     T5   11    
+gap_cycles_0 ready_10 42    1         T1   10     T2   8      T5   6     
+gap_cycles_0 ready_01 236   1         T1   43     T2   43     T5   64    
+gap_cycles_0 ready_00 30    1         T1   3      T2   5      T5   10    
+gap_cycles_1 ready_11 72    1         T1   20     T2   14     T5   11    
+gap_cycles_1 ready_10 47    1         T1   8      T2   11     T5   5     
+gap_cycles_1 ready_01 239   1         T1   50     T2   50     T5   52    
+gap_cycles_1 ready_00 60    1         T1   11     T2   14     T5   11    
+gap_cycles_2 ready_11 68    1         T1   15     T2   13     T5   17    
+gap_cycles_2 ready_10 59    1         T1   9      T2   8      T5   6     
+gap_cycles_2 ready_01 267   1         T1   53     T2   52     T5   57    
+gap_cycles_2 ready_00 52    1         T1   8      T2   7      T5   13    
+gap_cycles_3 ready_11 60    1         T1   16     T2   13     T5   19    
+gap_cycles_3 ready_10 57    1         T1   12     T2   11     T5   7     
+gap_cycles_3 ready_01 289   1         T1   57     T2   58     T5   68    
+gap_cycles_3 ready_00 43    1         T1   11     T2   5      T5   7     
+gap_cycles_4 ready_11 46    1         T1   8      T2   13     T5   12    
+gap_cycles_4 ready_10 44    1         T1   9      T2   14     T5   5     
+gap_cycles_4 ready_01 286   1         T1   46     T2   56     T5   49    
+gap_cycles_4 ready_00 50    1         T1   11     T2   10     T5   5     
+gap_cycles_5 ready_11 64    1         T1   20     T2   12     T5   10    
+gap_cycles_5 ready_10 46    1         T1   7      T2   8      T5   7     
+gap_cycles_5 ready_01 277   1         T1   47     T2   68     T5   48    
+gap_cycles_5 ready_00 59    1         T1   12     T2   9      T5   14    
+
+
+User Defined Cross Bins for gap_x_ready
+
+
+Excluded/Illegal bins
+
+NAME                     COUNT STATUS   
+outside_random_gap_range 0     Excluded 
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_top.me.obj.stimulus_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                             
+100.00 100.00    1      100    1        1            64           64                    fft_buffer_pkg::fft_buffer_coverage::stimulus_cg 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_top.me.obj.stimulus_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 267      0         267     100.00  
+Crosses   24       0         24      100.00  
+
+
+Variables for Group Instance  tb_top.me.obj.stimulus_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_data  256      0         256     100.00  100  1      1        0                    
+cp_gap   7        0         7       100.00  100  1      1        0                    
+cp_ready 4        0         4       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  tb_top.me.obj.stimulus_cg
+
+
+CROSS       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+gap_x_ready 24       0         24      100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_data
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 256      0         256     100.00  
+
+
+User Defined Bins for cp_data
+
+
+Bins
+
+NAME                 COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+value_range[000:00f] 9     1         T1   3      T2   1      T3   3     
+value_range[010:01f] 8     1         T2   3      T3   4      T4   1     
+value_range[020:02f] 6     1         T1   2      T2   1      T3   1     
+value_range[030:03f] 6     1         T1   2      T5   1      T3   1     
+value_range[040:04f] 9     1         T1   2      T2   1      T5   4     
+value_range[050:05f] 8     1         T2   3      T5   3      T3   2     
+value_range[060:06f] 11    1         T1   2      T5   3      T3   2     
+value_range[070:07f] 11    1         T1   2      T2   1      T5   5     
+value_range[080:08f] 13    1         T1   4      T2   3      T5   3     
+value_range[090:09f] 8     1         T1   4      T2   3      T5   1     
+value_range[0a0:0af] 8     1         T2   1      T5   5      T3   2     
+value_range[0b0:0bf] 11    1         T1   1      T2   5      T5   2     
+value_range[0c0:0cf] 6     1         T1   3      T2   1      T5   1     
+value_range[0d0:0df] 13    1         T5   3      T3   7      T4   3     
+value_range[0e0:0ef] 7     1         T1   1      T2   2      T5   3     
+value_range[0f0:0ff] 9     1         T2   1      T5   2      T3   2     
+value_range[100:10f] 9     1         T1   1      T5   2      T3   2     
+value_range[110:11f] 9     1         T1   1      T2   3      T5   1     
+value_range[120:12f] 8     1         T1   3      T5   2      T3   1     
+value_range[130:13f] 14    1         T1   1      T2   2      T5   4     
+value_range[140:14f] 6     1         T1   2      T2   2      T5   1     
+value_range[150:15f] 13    1         T1   1      T2   1      T5   3     
+value_range[160:16f] 11    1         T5   2      T3   4      T4   5     
+value_range[170:17f] 6     1         T1   1      T3   1      T4   4     
+value_range[180:18f] 9     1         T1   2      T2   3      T5   1     
+value_range[190:19f] 9     1         T1   2      T2   4      T3   2     
+value_range[1a0:1af] 16    1         T1   2      T2   8      T5   3     
+value_range[1b0:1bf] 9     1         T1   1      T2   1      T5   2     
+value_range[1c0:1cf] 14    1         T1   3      T2   1      T5   1     
+value_range[1d0:1df] 12    1         T2   3      T5   7      T3   1     
+value_range[1e0:1ef] 17    1         T1   6      T2   3      T5   1     
+value_range[1f0:1ff] 9     1         T1   2      T5   1      T3   4     
+value_range[200:20f] 13    1         T1   2      T2   2      T5   3     
+value_range[210:21f] 7     1         T1   2      T2   2      T5   2     
+value_range[220:22f] 7     1         T1   2      T2   1      T5   1     
+value_range[230:23f] 8     1         T1   3      T2   1      T5   2     
+value_range[240:24f] 11    1         T1   2      T2   3      T5   3     
+value_range[250:25f] 17    1         T1   5      T2   3      T5   2     
+value_range[260:26f] 10    1         T1   1      T2   1      T5   5     
+value_range[270:27f] 10    1         T1   3      T2   1      T5   2     
+value_range[280:28f] 5     1         T2   3      T5   1      T3   1     
+value_range[290:29f] 4     1         T3   3      T4   1      -    -     
+value_range[2a0:2af] 9     1         T2   4      T5   3      T3   1     
+value_range[2b0:2bf] 8     1         T1   2      T2   1      T5   1     
+value_range[2c0:2cf] 13    1         T1   2      T2   3      T5   2     
+value_range[2d0:2df] 13    1         T1   4      T2   4      T5   1     
+value_range[2e0:2ef] 6     1         T1   1      T5   4      T3   1     
+value_range[2f0:2ff] 9     1         T1   1      T2   1      T5   3     
+value_range[300:30f] 12    1         T2   4      T5   4      T3   2     
+value_range[310:31f] 14    1         T1   3      T2   2      T5   2     
+value_range[320:32f] 10    1         T1   1      T2   2      T5   2     
+value_range[330:33f] 14    1         T1   6      T2   1      T5   4     
+value_range[340:34f] 9     1         T1   1      T2   2      T5   3     
+value_range[350:35f] 8     1         T1   3      T2   1      T5   1     
+value_range[360:36f] 11    1         T1   2      T2   1      T5   4     
+value_range[370:37f] 5     1         T2   1      T5   1      T3   3     
+value_range[380:38f] 8     1         T1   2      T2   2      T3   1     
+value_range[390:39f] 6     1         T2   1      T5   3      T4   2     
+value_range[3a0:3af] 12    1         T1   2      T2   1      T5   4     
+value_range[3b0:3bf] 10    1         T1   2      T2   1      T5   4     
+value_range[3c0:3cf] 4     1         T1   2      T2   1      T3   1     
+value_range[3d0:3df] 12    1         T1   2      T2   4      T5   1     
+value_range[3e0:3ef] 6     1         T1   2      T2   2      T3   1     
+value_range[3f0:3ff] 8     1         T1   1      T5   5      T3   2     
+value_range[400:40f] 10    1         T1   2      T2   3      T5   1     
+value_range[410:41f] 9     1         T1   3      T2   1      T5   3     
+value_range[420:42f] 9     1         T1   1      T2   2      T5   2     
+value_range[430:43f] 9     1         T1   2      T2   3      T5   1     
+value_range[440:44f] 5     1         T1   1      T2   1      T5   1     
+value_range[450:45f] 10    1         T2   1      T5   5      T3   1     
+value_range[460:46f] 17    1         T2   4      T5   5      T3   6     
+value_range[470:47f] 15    1         T1   4      T2   4      T3   3     
+value_range[480:48f] 9     1         T1   1      T2   1      T3   4     
+value_range[490:49f] 8     1         T1   1      T2   3      T5   3     
+value_range[4a0:4af] 10    1         T2   4      T5   2      T3   3     
+value_range[4b0:4bf] 14    1         T1   3      T2   6      T5   1     
+value_range[4c0:4cf] 5     1         T2   2      T3   2      T4   1     
+value_range[4d0:4df] 15    1         T1   2      T2   3      T5   4     
+value_range[4e0:4ef] 10    1         T1   2      T5   3      T3   3     
+value_range[4f0:4ff] 6     1         T2   1      T5   3      T3   2     
+value_range[500:50f] 15    1         T1   4      T2   2      T5   1     
+value_range[510:51f] 11    1         T1   2      T5   3      T3   2     
+value_range[520:52f] 15    1         T1   4      T2   5      T3   4     
+value_range[530:53f] 6     1         T1   1      T2   2      T5   1     
+value_range[540:54f] 7     1         T1   1      T2   2      T3   2     
+value_range[550:55f] 9     1         T1   1      T2   1      T3   5     
+value_range[560:56f] 9     1         T1   2      T2   1      T5   2     
+value_range[570:57f] 9     1         T1   1      T2   4      T5   1     
+value_range[580:58f] 10    1         T1   2      T2   2      T5   1     
+value_range[590:59f] 9     1         T1   3      T3   3      T4   3     
+value_range[5a0:5af] 9     1         T2   3      T5   2      T3   1     
+value_range[5b0:5bf] 8     1         T1   2      T2   1      T5   1     
+value_range[5c0:5cf] 7     1         T2   5      T3   1      T4   1     
+value_range[5d0:5df] 11    1         T2   3      T5   3      T3   4     
+value_range[5e0:5ef] 12    1         T1   3      T2   4      T3   1     
+value_range[5f0:5ff] 8     1         T1   1      T2   2      T5   3     
+value_range[600:60f] 10    1         T2   2      T5   4      T3   3     
+value_range[610:61f] 12    1         T1   2      T2   1      T5   3     
+value_range[620:62f] 9     1         T1   2      T2   1      T5   3     
+value_range[630:63f] 11    1         T1   4      T2   2      T5   1     
+value_range[640:64f] 10    1         T1   1      T2   1      T5   3     
+value_range[650:65f] 8     1         T1   3      T2   1      T5   1     
+value_range[660:66f] 8     1         T1   2      T2   4      T5   1     
+value_range[670:67f] 12    1         T1   1      T2   5      T5   1     
+value_range[680:68f] 12    1         T1   2      T2   1      T5   3     
+value_range[690:69f] 12    1         T1   5      T2   5      T5   1     
+value_range[6a0:6af] 11    1         T1   2      T2   2      T5   4     
+value_range[6b0:6bf] 14    1         T1   5      T2   5      T5   3     
+value_range[6c0:6cf] 12    1         T2   3      T5   4      T3   2     
+value_range[6d0:6df] 14    1         T1   3      T2   2      T5   4     
+value_range[6e0:6ef] 7     1         T1   2      T2   2      T5   2     
+value_range[6f0:6ff] 13    1         T1   6      T2   1      T3   4     
+value_range[700:70f] 8     1         T1   3      T2   1      T5   1     
+value_range[710:71f] 13    1         T1   3      T2   4      T5   4     
+value_range[720:72f] 10    1         T1   1      T2   3      T5   4     
+value_range[730:73f] 6     1         T2   2      T5   2      T3   2     
+value_range[740:74f] 7     1         T1   2      T2   3      T4   2     
+value_range[750:75f] 9     1         T1   1      T2   1      T5   3     
+value_range[760:76f] 6     1         T1   2      T2   1      T5   2     
+value_range[770:77f] 11    1         T1   1      T2   2      T5   3     
+value_range[780:78f] 11    1         T1   4      T2   1      T5   3     
+value_range[790:79f] 13    1         T1   4      T2   1      T5   2     
+value_range[7a0:7af] 11    1         T1   2      T2   2      T5   2     
+value_range[7b0:7bf] 20    1         T1   3      T2   4      T5   4     
+value_range[7c0:7cf] 7     1         T1   3      T2   1      T3   1     
+value_range[7d0:7df] 4     1         T2   1      T5   1      T3   1     
+value_range[7e0:7ef] 4     1         T1   2      T2   1      T3   1     
+value_range[7f0:7ff] 16    1         T1   7      T5   3      T3   2     
+value_range[800:80f] 11    1         T1   2      T2   3      T5   1     
+value_range[810:81f] 6     1         T1   3      T2   1      T5   1     
+value_range[820:82f] 8     1         T1   1      T2   2      T3   3     
+value_range[830:83f] 10    1         T1   1      T2   4      T5   2     
+value_range[840:84f] 14    1         T1   5      T2   1      T5   3     
+value_range[850:85f] 13    1         T1   4      T2   2      T5   1     
+value_range[860:86f] 5     1         T1   1      T2   1      T5   1     
+value_range[870:87f] 10    1         T1   1      T2   3      T5   2     
+value_range[880:88f] 8     1         T1   1      T2   4      T3   1     
+value_range[890:89f] 9     1         T1   3      T2   1      T5   2     
+value_range[8a0:8af] 8     1         T1   1      T2   2      T5   3     
+value_range[8b0:8bf] 11    1         T1   5      T5   3      T3   2     
+value_range[8c0:8cf] 7     1         T2   2      T5   2      T4   3     
+value_range[8d0:8df] 10    1         T1   4      T2   2      T5   2     
+value_range[8e0:8ef] 14    1         T1   1      T2   5      T5   3     
+value_range[8f0:8ff] 11    1         T1   4      T2   3      T5   1     
+value_range[900:90f] 19    1         T1   2      T2   4      T5   3     
+value_range[910:91f] 9     1         T1   1      T2   1      T5   4     
+value_range[920:92f] 6     1         T2   2      T5   2      T4   2     
+value_range[930:93f] 8     1         T1   2      T2   2      T5   2     
+value_range[940:94f] 12    1         T2   5      T5   1      T3   4     
+value_range[950:95f] 6     1         T1   4      T2   1      T5   1     
+value_range[960:96f] 11    1         T1   2      T2   3      T3   3     
+value_range[970:97f] 8     1         T1   3      T2   1      T5   2     
+value_range[980:98f] 13    1         T1   2      T2   4      T5   3     
+value_range[990:99f] 11    1         T1   2      T2   2      T5   4     
+value_range[9a0:9af] 11    1         T1   2      T5   4      T3   2     
+value_range[9b0:9bf] 8     1         T1   3      T5   1      T3   1     
+value_range[9c0:9cf] 11    1         T1   2      T2   2      T5   2     
+value_range[9d0:9df] 6     1         T1   1      T2   3      T5   1     
+value_range[9e0:9ef] 11    1         T1   1      T2   2      T5   2     
+value_range[9f0:9ff] 12    1         T1   2      T2   2      T5   3     
+value_range[a00:a0f] 5     1         T1   2      T2   1      T3   2     
+value_range[a10:a1f] 15    1         T1   3      T2   4      T5   3     
+value_range[a20:a2f] 9     1         T1   2      T2   1      T5   1     
+value_range[a30:a3f] 12    1         T1   2      T2   3      T3   3     
+value_range[a40:a4f] 5     1         T1   1      T2   3      T3   1     
+value_range[a50:a5f] 9     1         T1   3      T2   2      T5   1     
+value_range[a60:a6f] 13    1         T1   1      T2   4      T5   4     
+value_range[a70:a7f] 16    1         T1   3      T2   4      T5   5     
+value_range[a80:a8f] 11    1         T1   3      T2   1      T5   4     
+value_range[a90:a9f] 9     1         T1   1      T2   3      T5   1     
+value_range[aa0:aaf] 5     1         T1   1      T2   1      T5   1     
+value_range[ab0:abf] 7     1         T1   2      T5   2      T3   2     
+value_range[ac0:acf] 12    1         T1   2      T5   1      T3   3     
+value_range[ad0:adf] 9     1         T1   3      T2   1      T5   2     
+value_range[ae0:aef] 10    1         T1   1      T2   2      T5   3     
+value_range[af0:aff] 16    1         T1   3      T2   3      T5   1     
+value_range[b00:b0f] 10    1         T2   2      T5   3      T3   1     
+value_range[b10:b1f] 10    1         T1   2      T2   1      T5   3     
+value_range[b20:b2f] 6     1         T1   1      T2   1      T5   1     
+value_range[b30:b3f] 12    1         T1   3      T2   2      T5   2     
+value_range[b40:b4f] 10    1         T1   1      T2   1      T5   4     
+value_range[b50:b5f] 7     1         T1   2      T2   2      T3   2     
+value_range[b60:b6f] 11    1         T1   1      T2   1      T5   1     
+value_range[b70:b7f] 9     1         T1   2      T2   3      T3   2     
+value_range[b80:b8f] 11    1         T1   4      T2   2      T5   1     
+value_range[b90:b9f] 12    1         T1   2      T2   2      T5   3     
+value_range[ba0:baf] 13    1         T1   3      T2   2      T5   2     
+value_range[bb0:bbf] 9     1         T1   3      T2   1      T5   1     
+value_range[bc0:bcf] 13    1         T1   2      T2   6      T5   3     
+value_range[bd0:bdf] 9     1         T1   4      T2   1      T5   2     
+value_range[be0:bef] 16    1         T1   4      T2   3      T5   3     
+value_range[bf0:bff] 12    1         T1   5      T2   1      T5   4     
+value_range[c00:c0f] 8     1         T1   2      T2   2      T5   1     
+value_range[c10:c1f] 11    1         T1   4      T5   3      T3   2     
+value_range[c20:c2f] 12    1         T1   1      T2   6      T5   2     
+value_range[c30:c3f] 10    1         T1   4      T5   1      T3   2     
+value_range[c40:c4f] 4     1         T1   2      T3   1      T4   1     
+value_range[c50:c5f] 13    1         T1   3      T2   4      T5   2     
+value_range[c60:c6f] 8     1         T1   3      T2   1      T5   2     
+value_range[c70:c7f] 14    1         T1   5      T2   4      T5   1     
+value_range[c80:c8f] 8     1         T1   1      T2   3      T5   2     
+value_range[c90:c9f] 15    1         T1   3      T2   2      T5   2     
+value_range[ca0:caf] 9     1         T2   3      T5   3      T3   3     
+value_range[cb0:cbf] 13    1         T1   1      T2   3      T5   3     
+value_range[cc0:ccf] 12    1         T1   2      T2   1      T5   3     
+value_range[cd0:cdf] 9     1         T1   3      T5   1      T3   2     
+value_range[ce0:cef] 14    1         T1   4      T2   3      T5   2     
+value_range[cf0:cff] 19    1         T1   5      T2   1      T5   5     
+value_range[d00:d0f] 13    1         T1   2      T2   6      T5   2     
+value_range[d10:d1f] 16    1         T1   7      T2   2      T5   1     
+value_range[d20:d2f] 4     1         T2   1      T5   1      T3   2     
+value_range[d30:d3f] 16    1         T1   1      T2   6      T5   1     
+value_range[d40:d4f] 13    1         T1   1      T2   3      T5   3     
+value_range[d50:d5f] 12    1         T1   2      T2   3      T5   1     
+value_range[d60:d6f] 10    1         T1   1      T2   1      T5   6     
+value_range[d70:d7f] 7     1         T1   2      T2   1      T3   2     
+value_range[d80:d8f] 14    1         T1   3      T2   4      T5   2     
+value_range[d90:d9f] 7     1         T1   3      T5   1      T4   3     
+value_range[da0:daf] 15    1         T1   3      T2   1      T5   4     
+value_range[db0:dbf] 10    1         T1   1      T2   2      T5   4     
+value_range[dc0:dcf] 9     1         T1   1      T2   2      T5   3     
+value_range[dd0:ddf] 5     1         T1   1      T5   2      T3   2     
+value_range[de0:def] 9     1         T1   2      T5   4      T3   1     
+value_range[df0:dff] 10    1         T1   1      T2   4      T5   2     
+value_range[e00:e0f] 17    1         T1   2      T2   5      T5   3     
+value_range[e10:e1f] 14    1         T1   1      T2   3      T5   3     
+value_range[e20:e2f] 10    1         T1   1      T2   2      T5   2     
+value_range[e30:e3f] 9     1         T1   3      T2   1      T5   2     
+value_range[e40:e4f] 11    1         T1   1      T2   6      T5   1     
+value_range[e50:e5f] 15    1         T1   1      T2   4      T3   5     
+value_range[e60:e6f] 5     1         T1   1      T2   1      T4   3     
+value_range[e70:e7f] 6     1         T1   1      T2   1      T5   1     
+value_range[e80:e8f] 8     1         T1   2      T5   3      T3   1     
+value_range[e90:e9f] 7     1         T1   3      T5   1      T3   1     
+value_range[ea0:eaf] 10    1         T1   3      T2   1      T5   2     
+value_range[eb0:ebf] 14    1         T1   5      T2   4      T5   2     
+value_range[ec0:ecf] 9     1         T1   4      T2   1      T5   1     
+value_range[ed0:edf] 9     1         T1   2      T5   1      T3   2     
+value_range[ee0:eef] 5     1         T1   2      T5   2      T4   1     
+value_range[ef0:eff] 15    1         T1   2      T2   1      T5   4     
+value_range[f00:f0f] 9     1         T1   1      T2   1      T5   3     
+value_range[f10:f1f] 6     1         T1   4      T5   1      T3   1     
+value_range[f20:f2f] 12    1         T1   4      T2   3      T5   3     
+value_range[f30:f3f] 4     1         T1   1      T2   1      T5   1     
+value_range[f40:f4f] 10    1         T1   2      T2   3      T5   2     
+value_range[f50:f5f] 8     1         T5   3      T3   3      T4   2     
+value_range[f60:f6f] 13    1         T1   1      T2   3      T5   2     
+value_range[f70:f7f] 12    1         T1   2      T2   1      T5   2     
+value_range[f80:f8f] 14    1         T1   2      T2   2      T5   3     
+value_range[f90:f9f] 10    1         T1   2      T2   1      T5   3     
+value_range[fa0:faf] 8     1         T2   2      T5   1      T3   3     
+value_range[fb0:fbf] 10    1         T1   2      T2   2      T5   1     
+value_range[fc0:fcf] 9     1         T1   1      T2   1      T5   2     
+value_range[fd0:fdf] 10    1         T1   2      T2   3      T5   1     
+value_range[fe0:fef] 12    1         T1   4      T2   2      T3   3     
+value_range[ff0:fff] 10    1         T1   2      T2   3      T5   2     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_gap
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for cp_gap
+
+
+Bins
+
+NAME          COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+gap_6_or_more 8     1         T1   3      T2   1      T5   1     
+gap_cycles_0  382   1         T1   82     T2   68     T5   91    
+gap_cycles_1  418   1         T1   89     T2   89     T5   79    
+gap_cycles_2  446   1         T1   85     T2   80     T5   93    
+gap_cycles_3  449   1         T1   96     T2   87     T5   101   
+gap_cycles_4  426   1         T1   74     T2   93     T5   71    
+gap_cycles_5  446   1         T1   86     T2   97     T5   79    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_ready
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for cp_ready
+
+
+Bins
+
+NAME     COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+ready_11 384   1         T1   105    T2   77     T5   80    
+ready_10 297   1         T1   56     T2   60     T5   36    
+ready_01 1604  1         T1   299    T2   329    T5   339   
+ready_00 295   1         T1   56     T2   50     T5   61    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross gap_x_ready
+
+
+Samples crossed: cp_gap cp_ready
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+TOTAL                              24       0         24      100.00          
+Automatically Generated Cross Bins 24       0         24      100.00          
+User Defined Cross Bins            0        0         0                       
+
+
+Automatically Generated Cross Bins for gap_x_ready
+
+
+Bins
+
+cp_gap       cp_ready COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+gap_cycles_0 ready_11 74    1         T1   26     T2   12     T5   11    
+gap_cycles_0 ready_10 42    1         T1   10     T2   8      T5   6     
+gap_cycles_0 ready_01 236   1         T1   43     T2   43     T5   64    
+gap_cycles_0 ready_00 30    1         T1   3      T2   5      T5   10    
+gap_cycles_1 ready_11 72    1         T1   20     T2   14     T5   11    
+gap_cycles_1 ready_10 47    1         T1   8      T2   11     T5   5     
+gap_cycles_1 ready_01 239   1         T1   50     T2   50     T5   52    
+gap_cycles_1 ready_00 60    1         T1   11     T2   14     T5   11    
+gap_cycles_2 ready_11 68    1         T1   15     T2   13     T5   17    
+gap_cycles_2 ready_10 59    1         T1   9      T2   8      T5   6     
+gap_cycles_2 ready_01 267   1         T1   53     T2   52     T5   57    
+gap_cycles_2 ready_00 52    1         T1   8      T2   7      T5   13    
+gap_cycles_3 ready_11 60    1         T1   16     T2   13     T5   19    
+gap_cycles_3 ready_10 57    1         T1   12     T2   11     T5   7     
+gap_cycles_3 ready_01 289   1         T1   57     T2   58     T5   68    
+gap_cycles_3 ready_00 43    1         T1   11     T2   5      T5   7     
+gap_cycles_4 ready_11 46    1         T1   8      T2   13     T5   12    
+gap_cycles_4 ready_10 44    1         T1   9      T2   14     T5   5     
+gap_cycles_4 ready_01 286   1         T1   46     T2   56     T5   49    
+gap_cycles_4 ready_00 50    1         T1   11     T2   10     T5   5     
+gap_cycles_5 ready_11 64    1         T1   20     T2   12     T5   10    
+gap_cycles_5 ready_10 46    1         T1   7      T2   8      T5   7     
+gap_cycles_5 ready_01 277   1         T1   47     T2   68     T5   48    
+gap_cycles_5 ready_00 59    1         T1   12     T2   9      T5   14    
+
+
+User Defined Cross Bins for gap_x_ready
+
+
+Excluded/Illegal bins
+
+NAME                     COUNT STATUS   
+outside_random_gap_range 0     Excluded 
+
+
+Group : fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+
+===============================================================================
+Group : fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/pedu12/workspace/fft_buffer/sim/stimulus_cov_mqS9nw/../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+100.00 1      100    1        64           64            tb_top.me.obj.buffer_cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 7        0         7       100.00  
+
+
+Variables for Group  fft_buffer_pkg::fft_buffer_coverage::buffer_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_event 7        0         7       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_event
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for cp_event
+
+
+Bins
+
+NAME                COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+collection_resumed  5     1         T1   1      T2   1      T5   1     
+input_dropped_full  20    1         T1   4      T2   4      T5   4     
+buffer_1_reused     5     1         T1   1      T2   1      T5   1     
+buffer_0_reused     5     1         T1   1      T2   1      T5   1     
+buffer_1_filled     10    1         T1   2      T2   2      T5   2     
+buffer_0_filled     10    1         T1   2      T2   2      T5   2     
+accepted_and_output 177   1         T1   34     T2   42     T5   35    
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_top.me.obj.buffer_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                           
+100.00 100.00    1      100    1        1            64           64                    fft_buffer_pkg::fft_buffer_coverage::buffer_cg 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_top.me.obj.buffer_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 7        0         7       100.00  
+
+
+Variables for Group Instance  tb_top.me.obj.buffer_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_event 7        0         7       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_event
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for cp_event
+
+
+Bins
+
+NAME                COUNT AT LEAST  TEST COUNT  TEST COUNT  TEST COUNT 
+collection_resumed  5     1         T1   1      T2   1      T5   1     
+input_dropped_full  20    1         T1   4      T2   4      T5   4     
+buffer_1_reused     5     1         T1   1      T2   1      T5   1     
+buffer_0_reused     5     1         T1   1      T2   1      T5   1     
+buffer_1_filled     10    1         T1   2      T2   2      T5   2     
+buffer_0_filled     10    1         T1   2      T2   2      T5   2     
+accepted_and_output 177   1         T1   34     T2   42     T5   35    
+
+

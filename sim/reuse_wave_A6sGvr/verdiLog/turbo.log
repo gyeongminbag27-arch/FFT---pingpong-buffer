@@ -1,0 +1,4 @@
+Command Line: /tools/synopsys/verdi/X-2025.06-1/platform/LINUXAMD64/bin/Novas -ssf fft_buffer_reuse.fsdb
+uname(Linux kccipangyo1 4.18.0-553.83.1.el8_10.x86_64 #1 SMP Fri Oct 31 03:39:01 EDT 2025 x86_64)
+KdbImportParallelMixAllLib time 0.034838 0.034526 0.007950 delta 20963328 20963328 total 1272709120 1272709120
+au time 9339.649759 36.054079 11.048100 delta 372813824 372813824 total 1439981568 1439981568

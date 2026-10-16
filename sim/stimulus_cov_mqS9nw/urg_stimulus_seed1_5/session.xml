@@ -1,0 +1,57 @@
+<session version="1.1" release="W-2024.09-SP2" timestp="2026-10-06 07:31:00 GMT">
+  <info>
+    <attr name="datetime" value="Tue Oct  6 16:32:00 2026
+"/>
+    <attr name="command" value="urg -dir stimulus_seed1.vdb stimulus_seed2.vdb stimulus_seed3.vdb stimulus_seed4.vdb stimulus_seed5.vdb -dbname stimulus_merged_seed1_5.vdb -report urg_stimulus_seed1_5 -format both -show tests -show ratios"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="ratio" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="298/298" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="fft_buffer_pkg::fft_buffer_coverage::stimulus_cg">
+      <metric name="Group" value="291/291" />
+    </scope>
+    <scope type="group" name="fft_buffer_pkg::fft_buffer_coverage::buffer_cg">
+      <metric name="Group" value="7/7" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  <scope type="test" name="test">
+    <test name="count" value="5" />
+    <test name="stimulus_seed1/stimulus_seed1">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="0.270" />
+    </test>
+    <test name="stimulus_seed2/stimulus_seed2">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="0.280" />
+    </test>
+    <test name="stimulus_seed3/stimulus_seed3">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="0.270" />
+    </test>
+    <test name="stimulus_seed4/stimulus_seed4">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="0.270" />
+    </test>
+    <test name="stimulus_seed5/stimulus_seed5">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="0.280" />
+    </test>
+  </scope>
+  </old_coverage>
+</session>

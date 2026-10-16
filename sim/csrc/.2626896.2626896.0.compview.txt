@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1790666601.991463502, "rt":0.30, "ut":0.24, "st":0.04}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1790666601.753397506}
+{"VCS_COMP_START_TIME": 1790666601.753397506}
+{"VCS_COMP_END_TIME": 1790666602.330819694}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm +incdir+../agents/adc +incdir+../env +incdir+../tests ../rtl/fft_buffer.v ../tb/fft_buffer_if.sv ../tb/fft_buffer_pkg.sv ../tb/tb_top.sv -top tb_top -o simv -l compile.log"}
+{"vcs1": {"peak_mem": 309384}}

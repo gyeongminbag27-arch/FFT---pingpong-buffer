@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: fft_buffer</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_fft_buffer'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_fft_buffer')">fft_buffer</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 90.33</td>
+<td class="s10 cl rt"><a href="mod4.html#Line" >100.00</a></td>
+<td class="s9 cl rt"><a href="mod4.html#Cond" > 95.83</a></td>
+<td class="s7 cl rt"><a href="mod4.html#Toggle" > 78.95</a></td>
+<td class="s8 cl rt"><a href="mod4.html#FSM" > 80.00</a></td>
+<td class="s9 cl rt"><a href="mod4.html#Branch" > 96.88</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/./rtl/fft_buffer.v')">/home/pedu12/workspace/fft_buffer/sim/codecov_Zi9qrT/./rtl/fft_buffer.v</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod4.html#inst_tag_4"  onclick="showContent('inst_tag_4')">tb_top.dut</a></td>
+<td class="s9 cl rt"> 90.33</td>
+<td class="s10 cl rt"><a href="mod4.html#Line" >100.00</a></td>
+<td class="s9 cl rt"><a href="mod4.html#Cond" > 95.83</a></td>
+<td class="s7 cl rt"><a href="mod4.html#Toggle" > 78.95</a></td>
+<td class="s8 cl rt"><a href="mod4.html#FSM" > 80.00</a></td>
+<td class="s9 cl rt"><a href="mod4.html#Branch" > 96.88</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_fft_buffer'>
+<hr>
+<a name="inst_tag_4"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_4" >tb_top.dut</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 90.33</td>
+<td class="s10 cl rt"><a href="mod4.html#Line" >100.00</a></td>
+<td class="s9 cl rt"><a href="mod4.html#Cond" > 95.83</a></td>
+<td class="s7 cl rt"><a href="mod4.html#Toggle" > 78.95</a></td>
+<td class="s8 cl rt"><a href="mod4.html#FSM" > 80.00</a></td>
+<td class="s9 cl rt"><a href="mod4.html#Branch" > 96.88</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 90.33</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s9 cl rt"> 95.83</td>
+<td class="s7 cl rt"> 78.95</td>
+<td class="s8 cl rt"> 80.00</td>
+<td class="s9 cl rt"> 96.88</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod3.html#inst_tag_3" >tb_top</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_fft_buffer'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod4.html" >fft_buffer</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">TOTAL</td><td></td><td>78</td><td>78</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>81</td><td>19</td><td>19</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>115</td><td>51</td><td>51</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>231</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>241</td><td>4</td><td>4</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+80                      	always @(posedge clk or posedge rst) begin
+81         1/1          		if (rst) begin
+82         1/1          			c_state      &lt;= ST_IDLE;
+83         1/1          			adc_cnt_reg  &lt;= 7'd0;
+84         1/1          			wsel_reg     &lt;= 1'b0;
+85         1/1          			sample_reg   &lt;= {ADC_BIT{1'b0}};
+86                      
+87         1/1          			full0_reg    &lt;= 1'b0;
+88         1/1          			full1_reg    &lt;= 1'b0;
+89                      
+90         1/1          			pair_cnt_reg &lt;= 6'd0;
+91         1/1          			rsel_reg     &lt;= 1'b0;
+92                      
+93         1/1          			overflow_reg &lt;= 1'b0;
+94                      		end else begin
+95         1/1          			c_state      &lt;= n_state;
+96                      
+97         1/1          			adc_cnt_reg  &lt;= adc_cnt_next;
+98         1/1          			wsel_reg     &lt;= wsel_next;
+99         1/1          			sample_reg   &lt;= sample_next;
+100                     
+101        1/1          			full0_reg    &lt;= full0_next;
+102        1/1          			full1_reg    &lt;= full1_next;
+103                     
+104        1/1          			pair_cnt_reg &lt;= pair_cnt_next;
+105        1/1          			rsel_reg     &lt;= rsel_next;
+106                     
+107        1/1          			overflow_reg &lt;= overflow_next;
+108                     		end
+109                     	end
+110                     
+111                     	// ========================================
+112                     	// 2. 다음값 및 제어 출력 생성
+113                     	// ========================================
+114                     	always @(*) begin
+115        1/1          		n_state       = c_state;
+116                     
+117        1/1          		adc_cnt_next  = adc_cnt_reg;
+118        1/1          		wsel_next     = wsel_reg;
+119        1/1          		sample_next   = sample_reg;
+120                     
+121        1/1          		full0_next    = full0_reg;
+122        1/1          		full1_next    = full1_reg;
+123                     
+124        1/1          		pair_cnt_next = pair_cnt_reg;
+125        1/1          		rsel_next     = rsel_reg;
+126                     
+127        1/1          		overflow_next = overflow_reg;
+128                     
+129        1/1          		o_frame_valid    = 1'b0;
+130        1/1          		o_buf_data_valid = 1'b0;
+131                     
+132        1/1          		w_mem0_wen = 1'b0;
+133        1/1          		w_mem1_wen = 1'b0;
+134        1/1          		w_mem0_ren = 1'b0;
+135        1/1          		w_mem1_ren = 1'b0;
+136                     
+137        1/1          		if (!rst) begin
+138                     			// --------------------------------
+139                     			// ADC 수집
+140                     			// 아래 전달 FSM과 독립적으로 동작
+141                     			// --------------------------------
+142        1/1          			if (i_adc_data_valid) begin
+143        1/1          				if (write_buf_full) begin
+144                     					// 기존 프레임 보존, 새 샘플 누락 표시
+145        1/1          					overflow_next = 1'b1;
+146                     				end else begin
+147        1/1          					if (adc_cnt_reg[0] == 1'b0) begin
+148                     						// 첫 번째 샘플 임시 보관
+149        1/1          						sample_next = i_adc_data;
+150                     					end else begin
+151                     						// 두 번째 샘플 도착: 한 쌍 저장
+152        1/1          						if (wsel_reg == 1'b0) begin
+153        1/1          							w_mem0_wen = 1'b1;
+154                     						end else begin
+155        1/1          							w_mem1_wen = 1'b1;
+156                     						end
+157                     					end
+158                     					// last sample check
+159                     
+160        1/1          					if (adc_cnt_reg == 7'd127) begin
+161        1/1          						adc_cnt_next = 7'd0;
+162                     						
+163                     						// next buffer change
+164        1/1          						wsel_next  = ~wsel_reg;
+165                     
+166        1/1          						if (wsel_reg == 1'b0) begin
+167        1/1          							full0_next = 1'b1;
+168                     						end else begin
+169        1/1          							full1_next = 1'b1;
+170                     						end
+171                     					end else begin
+172        1/1          						adc_cnt_next = adc_cnt_reg + 7'd1;
+173                     					end
+174                     				end
+175                     			end
+                        MISSING_ELSE
+176                     
+177                     			// --------------------------------
+178                     			// Core로 프레임 전달
+179                     			// --------------------------------
+180        1/1          			case (c_state)
+181                     				ST_IDLE: begin
+182        1/1          					pair_cnt_next = 6'd0;
+183        1/1          					o_frame_valid = read_buf_full;
+184        1/1          					if (o_frame_valid &amp;&amp; i_frame_ready) begin
+185        1/1          						n_state = ST_READ;
+186                     					end
+                        MISSING_ELSE
+187                     				end
+188                     
+189                     				ST_READ: begin
+190                     					// 다음 상승 에지에서 메모리 읽기
+191        1/1          					if (rsel_reg == 1'b0) begin
+192        1/1          						w_mem0_ren = 1'b1;
+193                     					end else begin
+194        1/1          						w_mem1_ren = 1'b1;
+195                     					end
+196        1/1          					n_state = ST_SEND;
+197                     				end
+198                     
+199                     				ST_SEND: begin
+200        1/1          					o_buf_data_valid = 1'b1;
+201                     
+202                     					// 가져갈 때까지 데이터와 valid 유지
+203        1/1          					if (o_buf_data_valid &amp;&amp; i_buf_data_ready) begin
+204        1/1          						if (pair_cnt_reg &lt; 6'd63) begin
+205        1/1          							pair_cnt_next = pair_cnt_reg + 6'd1;
+206        1/1          							n_state       = ST_READ;
+207                     						end else begin
+208                     							// 마지막 쌍 전달 완료
+209        1/1          							pair_cnt_next = 6'd0;
+210        1/1          							rsel_next   = ~rsel_reg;
+211        1/1          							n_state       = ST_IDLE;
+212                     
+213                     							// 전달한 버퍼를 빈 상태로 변경
+214        1/1          							if (rsel_reg == 1'b0) begin
+215        1/1          								full0_next = 1'b0;
+216                     							end else begin
+217        1/1          								full1_next = 1'b0;
+218                     							end
+219                     						end
+220                     					end
+                        MISSING_ELSE
+221                     				end
+                   <font color = "red">==>  MISSING_DEFAULT</font>
+222                     			endcase
+223                     		end
+                        MISSING_ELSE
+224                     	end
+225                     
+226                     	// ========================================
+227                     	// 3. 메모리 읽기 / 쓰기
+228                     	// 메모리 배열과 읽기 데이터는 reset하지 않음
+229                     	// ========================================
+230                     	always @(posedge clk) begin
+231        1/1          		if (w_mem0_wen) begin
+232        1/1          			buffer0[adc_cnt_reg[6:1]] &lt;= {sample_reg, i_adc_data};
+233                     			// first sample go upper 12bit 
+234        1/1          		end else if (w_mem0_ren) begin
+235        1/1          			rdata0 &lt;= buffer0[pair_cnt_reg];
+236                     			// later sample go lower 12bit
+237                     		end
+                        MISSING_ELSE
+238                     	end
+239                     
+240                     	always @(posedge clk) begin
+241        1/1          		if (w_mem1_wen) begin
+242        1/1          			buffer1[adc_cnt_reg[6:1]] &lt;= {sample_reg, i_adc_data};
+243        1/1          		end else if (w_mem1_ren) begin
+244        1/1          			rdata1 &lt;= buffer1[pair_cnt_reg];
+245                     		end
+                        MISSING_ELSE
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod4.html" >fft_buffer</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s9"><td class="lf">Conditions</td><td>24</td><td>23</td><td>95.83</td></tr>
+<tr class="s9"><td class="lf">Logical</td><td>24</td><td>23</td><td>95.83</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       64
+ EXPRESSION (wsel_reg ? full1_reg : full0_reg)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       65
+ EXPRESSION (rsel_reg ? full1_reg : full0_reg)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       66
+ EXPRESSION (rsel_reg ? rdata1 : rdata0)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       147
+ EXPRESSION (adc_cnt_reg[0] == 1'b0)
+            ------------1-----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       152
+ EXPRESSION (wsel_reg == 1'b0)
+            ---------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       160
+ EXPRESSION (adc_cnt_reg == 7'd127)
+            -----------1-----------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       166
+ EXPRESSION (wsel_reg == 1'b0)
+            ---------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       184
+ EXPRESSION (o_frame_valid &amp;&amp; i_frame_ready)
+             ------1------    ------2------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       191
+ EXPRESSION (rsel_reg == 1'b0)
+            ---------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       203
+ EXPRESSION (o_buf_data_valid &amp;&amp; i_buf_data_ready)
+             --------1-------    --------2-------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uRed"><td>0</td><td>1</td><td class="lf">Not Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       214
+ EXPRESSION (rsel_reg == 1'b0)
+            ---------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod4.html" >fft_buffer</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s9">
+<td>Totals</td>
+<td class="rt">40</td>
+<td class="rt">38</td>
+<td class="rt">95.00 </td>
+</tr><tr class="s7">
+<td>Total Bits</td>
+<td class="rt">532</td>
+<td class="rt">420</td>
+<td class="rt">78.95 </td>
+</tr><tr class="s7">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">266</td>
+<td class="rt">210</td>
+<td class="rt">78.95 </td>
+</tr><tr class="s7">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">266</td>
+<td class="rt">210</td>
+<td class="rt">78.95 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s8">
+<td>Ports</td>
+<td class="rt">11</td>
+<td class="rt">9</td>
+<td class="rt">81.82 </td>
+</tr><tr class="s4">
+<td>Port Bits</td>
+<td class="rt">200</td>
+<td class="rt">88</td>
+<td class="rt">44.00 </td>
+</tr><tr class="s4">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">100</td>
+<td class="rt">44</td>
+<td class="rt">44.00 </td>
+</tr><tr class="s4">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">100</td>
+<td class="rt">44</td>
+<td class="rt">44.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s10">
+<td>Signals</td>
+<td class="rt">29</td>
+<td class="rt">29</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Signal Bits</td>
+<td class="rt">332</td>
+<td class="rt">332</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">166</td>
+<td class="rt">166</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">166</td>
+<td class="rt">166</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>clk</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>rst</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>i_adc_data[11:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>i_adc_data_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>o_frame_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>i_frame_ready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>o_buf_data_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>i_buf_data_ready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>o_buf_data0[19:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_buf_data0[31:20]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_buf_data0[39:32]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_buf_data1[19:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_buf_data1[31:20]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_buf_data1[39:32]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>o_overflow</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>c_state[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>n_state[1:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>adc_cnt_reg[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>adc_cnt_next[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>wsel_reg</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>wsel_next</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>sample_reg[11:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>sample_next[11:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>full0_reg</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>full0_next</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>full1_reg</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>full1_next</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>pair_cnt_reg[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>pair_cnt_next[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rsel_reg</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rsel_next</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>overflow_reg</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>overflow_next</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata0[23:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>rdata1[23:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>w_mem0_wen</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>w_mem0_ren</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>w_mem1_wen</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>w_mem1_ren</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>write_buf_full</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>read_buf_full</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>read_pair[23:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>sample0[11:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>sample1[11:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+<hr>
+<a name="FSM"></a>
+FSM Coverage for Module : <a href="mod4.html" >fft_buffer</a><br clear=all>
+<table align=left class="noborder">
+<caption><b>Summary for FSM :: c_state</b></caption>
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th><th nowrap width=200></th></tr><tr class="wht">
+<td>States</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+<td>(Not included in score)</td>
+</tr><tr class="s8">
+<td>Transitions</td>
+<td class="rt">5</td>
+<td class="rt">4</td>
+<td class="rt">80.00 </td>
+<td></td>
+</tr><tr class="wht">
+<td>Sequences</td>
+<td class="rt">0</td>
+<td class="rt">0</td>
+<td></td>
+<td></td>
+</tr></table><br clear=all>
+<b>State, Transition and Sequence Details for FSM :: c_state</b><hr>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">states</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ST_IDLE</td>
+<td class="rt">82</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ST_READ</td>
+<td class="rt">185</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ST_SEND</td>
+<td class="rt">196</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<table align=left class="sortable noborder">
+<tr class="sortablehead">
+<td class="alfsrt">transitions</td><td>Line No.</td><td class="alfsrt">Covered</td></tr><tr class="uGreen">
+<td nowrap>ST_IDLE->ST_READ</td>
+<td class="rt">185</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td nowrap>ST_READ->ST_IDLE</td>
+<td class="rt">82</td>
+<td>Not&nbsp;Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ST_READ->ST_SEND</td>
+<td class="rt">196</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ST_SEND->ST_IDLE</td>
+<td class="rt">82</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td nowrap>ST_SEND->ST_READ</td>
+<td class="rt">206</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod4.html" >fft_buffer</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s9">
+<td>Branches</td>
+<td></td>
+<td class="rt">32</td>
+<td class="rt">31</td>
+<td class="rt">96.88 </td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">64</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">65</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">66</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">81</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s9">
+<td>IF</td>
+<td class="rt">137</td>
+<td class="rt">18</td>
+<td class="rt">17</td>
+<td class="rt">94.44 </td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">231</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">241</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+64         	assign write_buf_full = wsel_reg ? full1_reg : full0_reg;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+65         	assign read_buf_full  = rsel_reg ? full1_reg : full0_reg;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+66         	assign read_pair      = rsel_reg ? rdata1 : rdata0;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+81         		if (rst) begin
+           		<font color = "green">-1-</font>  
+82         			c_state      <= ST_IDLE;
+           <font color = "green">			==></font>
+83         			adc_cnt_reg  <= 7'd0;
+84         			wsel_reg     <= 1'b0;
+85         			sample_reg   <= {ADC_BIT{1'b0}};
+86         
+87         			full0_reg    <= 1'b0;
+88         			full1_reg    <= 1'b0;
+89         
+90         			pair_cnt_reg <= 6'd0;
+91         			rsel_reg     <= 1'b0;
+92         
+93         			overflow_reg <= 1'b0;
+94         		end else begin
+95         			c_state      <= n_state;
+           <font color = "green">			==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+137        		if (!rst) begin
+           		<font color = "green">-1-</font>  
+138        			// --------------------------------
+139        			// ADC 수집
+140        			// 아래 전달 FSM과 독립적으로 동작
+141        			// --------------------------------
+142        			if (i_adc_data_valid) begin
+           			<font color = "green">-2-</font>  
+143        				if (write_buf_full) begin
+           				<font color = "green">-3-</font>  
+144        					// 기존 프레임 보존, 새 샘플 누락 표시
+145        					overflow_next = 1'b1;
+           <font color = "green">					==></font>
+146        				end else begin
+147        					if (adc_cnt_reg[0] == 1'b0) begin
+           					<font color = "green">-4-</font>  
+148        						// 첫 번째 샘플 임시 보관
+149        						sample_next = i_adc_data;
+           <font color = "green">						==></font>
+150        					end else begin
+151        						// 두 번째 샘플 도착: 한 쌍 저장
+152        						if (wsel_reg == 1'b0) begin
+           						<font color = "green">-5-</font>  
+153        							w_mem0_wen = 1'b1;
+           <font color = "green">							==></font>
+154        						end else begin
+155        							w_mem1_wen = 1'b1;
+           <font color = "green">							==></font>
+156        						end
+157        					end
+158        					// last sample check
+159        
+160        					if (adc_cnt_reg == 7'd127) begin
+           					<font color = "green">-6-</font>  
+161        						adc_cnt_next = 7'd0;
+162        						
+163        						// next buffer change
+164        						wsel_next  = ~wsel_reg;
+165        
+166        						if (wsel_reg == 1'b0) begin
+           						<font color = "green">-7-</font>  
+167        							full0_next = 1'b1;
+           <font color = "green">							==></font>
+168        						end else begin
+169        							full1_next = 1'b1;
+           <font color = "green">							==></font>
+170        						end
+171        					end else begin
+172        						adc_cnt_next = adc_cnt_reg + 7'd1;
+           <font color = "green">						==></font>
+173        					end
+174        				end
+175        			end
+           			MISSING_ELSE
+           <font color = "green">			==></font>
+176        
+177        			// --------------------------------
+178        			// Core로 프레임 전달
+179        			// --------------------------------
+180        			case (c_state)
+           			<font color = "red">-8-</font>  
+181        				ST_IDLE: begin
+182        					pair_cnt_next = 6'd0;
+183        					o_frame_valid = read_buf_full;
+184        					if (o_frame_valid && i_frame_ready) begin
+           					<font color = "green">-9-</font>  
+185        						n_state = ST_READ;
+           <font color = "green">						==></font>
+186        					end
+           					MISSING_ELSE
+           <font color = "green">					==></font>
+187        				end
+188        
+189        				ST_READ: begin
+190        					// 다음 상승 에지에서 메모리 읽기
+191        					if (rsel_reg == 1'b0) begin
+           					<font color = "green">-10-</font>  
+192        						w_mem0_ren = 1'b1;
+           <font color = "green">						==></font>
+193        					end else begin
+194        						w_mem1_ren = 1'b1;
+           <font color = "green">						==></font>
+195        					end
+196        					n_state = ST_SEND;
+197        				end
+198        
+199        				ST_SEND: begin
+200        					o_buf_data_valid = 1'b1;
+201        
+202        					// 가져갈 때까지 데이터와 valid 유지
+203        					if (o_buf_data_valid && i_buf_data_ready) begin
+           					<font color = "green">-11-</font>  
+204        						if (pair_cnt_reg < 6'd63) begin
+           						<font color = "green">-12-</font>  
+205        							pair_cnt_next = pair_cnt_reg + 6'd1;
+           <font color = "green">							==></font>
+206        							n_state       = ST_READ;
+207        						end else begin
+208        							// 마지막 쌍 전달 완료
+209        							pair_cnt_next = 6'd0;
+210        							rsel_next   = ~rsel_reg;
+211        							n_state       = ST_IDLE;
+212        
+213        							// 전달한 버퍼를 빈 상태로 변경
+214        							if (rsel_reg == 1'b0) begin
+           							<font color = "green">-13-</font>  
+215        								full0_next = 1'b0;
+           <font color = "green">								==></font>
+216        							end else begin
+217        								full1_next = 1'b0;
+           <font color = "green">								==></font>
+218        							end
+219        						end
+220        					end
+           					MISSING_ELSE
+           <font color = "green">					==></font>
+221        				end
+           				MISSING_DEFAULT
+           <font color = "red">				==></font>
+222        			endcase
+223        		end
+           		MISSING_ELSE
+           <font color = "green">		==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>-10-</th><th nowrap width=80>-11-</th><th nowrap width=80>-12-</th><th nowrap width=80>-13-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_IDLE </td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_IDLE </td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_READ </td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_READ </td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_SEND </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_SEND </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_SEND </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>ST_SEND </td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uRed">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>MISSING_DEFAULT</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Not Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+231        		if (w_mem0_wen) begin
+           		<font color = "green">-1-</font>  
+232        			buffer0[adc_cnt_reg[6:1]] <= {sample_reg, i_adc_data};
+           <font color = "green">			==></font>
+233        			// first sample go upper 12bit 
+234        		end else if (w_mem0_ren) begin
+           		         <font color = "green">-2-</font>  
+235        			rdata0 <= buffer0[pair_cnt_reg];
+           <font color = "green">			==></font>
+236        			// later sample go lower 12bit
+237        		end
+           		MISSING_ELSE
+           <font color = "green">		==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+241        		if (w_mem1_wen) begin
+           		<font color = "green">-1-</font>  
+242        			buffer1[adc_cnt_reg[6:1]] <= {sample_reg, i_adc_data};
+           <font color = "green">			==></font>
+243        		end else if (w_mem1_ren) begin
+           		         <font color = "green">-2-</font>  
+244        			rdata1 <= buffer1[pair_cnt_reg];
+           <font color = "green">			==></font>
+245        		end
+           		MISSING_ELSE
+           <font color = "green">		==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_4">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#FSM">FSM</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_fft_buffer">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#FSM">FSM</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

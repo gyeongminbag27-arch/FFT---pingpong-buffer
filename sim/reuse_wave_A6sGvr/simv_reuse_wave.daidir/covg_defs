@@ -1,0 +1,71 @@
+global coverage_group 0 0 fft_buffer_pkg::fft_buffer_coverage::buffer_cg __coverage_fft_buffer_coverage.buffer_cg unused_fft_buffer_coverage_buffer_cg_loop_label fft_buffer_pkg 0 0 0 0 0  ( 0 
+)
+ 1 1
+ 0 112 /home/pedu12/workspace/fft_buffer/sim/reuse_wave_A6sGvr/../../tb/UVM_test/fft_buffer_env/fft_buffer_coverage.svh
+ 31 0 0 0 1 0 0 0 0  1
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_7
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 8 cp_event 34 0 0 0 0 0 0 133 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn 133 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 1 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 7 1 1 0 0 1 1 19 accepted_and_output 35 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_0_filled 36 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_1_filled 37 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_2 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_0_reused 38 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 15 buffer_1_reused 39 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_4 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 18 input_dropped_full 40 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_5 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 18 collection_resumed 41 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 135 fft_buffer_pkg_fft_buffer_coverage_11_0::fft_buffer_pkg_fft_buffer_coverage_11_0_fft_buffer_pkg_fft_buffer_coverage_11_0_buffer_cg_fn_6 0 0 0 0 0 0 0
+ 0
+
+end_coverage_group
